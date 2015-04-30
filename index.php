@@ -95,7 +95,7 @@
 </div>
 
 
-
+<div class="ou-table-wrap">
 <table>
 <thead>
 <tr>
@@ -109,66 +109,86 @@
 <tr>
 <td>1</td>
 <td><a href="#">Your contacts</a></td>
-<td>7% <span class="down">3%</span></td>
+<td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
 </tr>
 <tr>
 <td>2</td>
 <td><a href="#">Funding your studies</a></td>
-<td>9% <span class="up">1%</span></td>
+<td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
 </tr>
 <tr>
 <td>3</td>
 <td><a href="#">Disabled students</a></td>
-<td>11% <span class="up">2%</span></td>
+<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
 </tr>
 <tr>
 <td>4</td>
 <td><a href="#">DSA eligibility</a></td>
-<td>15% <span class="up">5%</span></td>
+<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
 </tr>
 <tr>
 <td>5</td>
 <td><a href="#">Enrolment help</a></td>
-<td>15% <span class="down">4%</span></td>
+<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 17</a></td>
 </tr>
 <tr>
 <td>6</td>
 <td><a href="#">Exam arrangements for disabled students</a></td>
-<td>17% <span class="down">1%</span></td>
+<td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 10</a></td>
 </tr>
 <tr>
 <td>7</td>
 <td><a href="#">Changing your modules q3</a></td>
-<td>21% <span class="up">6%</span></td>
+<td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 1</a></td>
 </tr>
 <tr>
 <td>8</td>
 <td><a href="#">Choosing your modules</a></td>
-<td>23% <span class="down">5%</span></td>
+<td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 3</a></td>
 </tr>
 <tr>
 <td>9</td>
 <td><a href="#">CMA and TMA</a></td>
-<td>24% <span class="up">9%</span></td>
+<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
 </tr>
 <tr>
 <td>10</td>
 <td><a href="#">Notetaking techniques</a></td>
-<td>28% <span class="up">2%</span></td>
+<td>28% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 20</a></td>
 </tr>
 </tbody>
 </table>
+</div>
 
+<div class="ou-paged">
+  <ul>
+    <li><strong>1</strong></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+  </ul>
+  <p>Show: <strong>10</strong> - <a href="#">20</a> - <a href="#">50</a> - <a href="#">100</a></p>
+</div>
+
+<hr>
+
+<ul class="ou-icon-links">
+
+<li><a href="#"><i class="fa fa-envelope-o colour0"></i> Email this table</a></li>
+
+<li><a href="#"><i class="fa fa-download colour1"></i> Download this table</a></li>
+
+</ul>
 
 
 
@@ -198,6 +218,58 @@
 </ul>
 </div>
 
+<div class="feedback-list">
+
+<div class="feedback-list-item">
+
+<span class="negative fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i>
+</span>
+
+<h2 class="feedback-list-title"><a href="#">Choosing your modules</a></h2>
+
+<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
+
+<p class="feedback-list-more"><a href="#">Read more</a></p>
+
+</div>
+
+<div class="feedback-list-item">
+
+<span class="positive fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i>
+</span>
+
+<h2 class="feedback-list-title"><a href="#">Enrolment help</a></h2>
+
+<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
+
+<p class="feedback-list-more"><a href="#">Read more</a></p>
+
+</div>
+
+<div class="feedback-list-item">
+
+<span class="bug fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-bug fa-stack-1x fa-inverse"></i>
+</span>
+
+<h2 class="feedback-list-title"><a href="#">DSA eligibility</a></h2>
+
+<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
+
+<p class="feedback-list-more"><a href="#">Read more</a></p>
+
+</div>
+
+<p><i class="fa fa-caret-right"></i> <a href="#" class="no-underline">See all feedback</a></p>
+
+
+</div>
+
 
 </div> <!-- end ou-region2 -->
 
@@ -209,15 +281,15 @@
 
 </div> <!-- end ou-site-footer -->
 
+
+
 </div> <!-- end ou-site -->
+
+
+
 
 <div class="ou-footer">
     
-<div class="ou-footer-container">
-
-
-</div> <!-- end ou-footer-container -->
-
 </div> <!-- end ou-footer -->
 
 
