@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8" />
 
-<title>Healthiness App</title>
+<title>Reports - Healthiness App</title>
 
 <?php include('inc/head.php'); ?>
 
 </head>
 
-<body class="">
+<body class="reports">
 
 <div id="ou-org">
 
@@ -24,8 +24,8 @@
 
 <nav>
 <ul>
-<li class="nav-dashboard"><a href="index.php" class="ou-selected"><i class="fa fa-laptop"></i> Dashboard</a></li>
-<li class="nav-reports"><a href="reports.php"><i class="fa fa-file-text-o"></i> Reports</a></li>
+<li class="nav-dashboard"><a href="index.php"><i class="fa fa-laptop"></i> Dashboard</a></li>
+<li class="nav-reports"><a href="reports.php" class="ou-selected"><i class="fa fa-file-text-o"></i> Reports</a></li>
 <li class="nav-feedback"><a href="feedback.php"><i class="fa fa-comment-o"></i> Feedback</a></li>
 <li class="nav-fullscreen"><a href="full-screen.php"><i class="fa fa-expand"></i> Full Screen</a></li>
 <li class="nav-help"><a href="http://www2.open.ac.uk/students/help"><i class="fa fa-external-link"></i> Help Centre</a></li>
@@ -51,9 +51,7 @@
 
 <div class="ou-site-header-content">
 
-<p class="active-users"><em>41</em> active users</p>
-
-<h1>Dashboard</h1>
+<h1>Reports</h1>
 
 </div> <!-- end ou-site-header-content -->
 
@@ -75,10 +73,28 @@
 <ul class="tabs">
 
 <li>
-<a href="#" class="selected">Articles</a>
+<a href="#" class="selected">Topics</a>
 <ul class="sub">
-<li><a href="#">Topics</a></li>
+<li><a href="#">Articles</a></li>
 <li><a href="#">Compare</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#" class="selected">All topics</a>
+<ul class="sub">
+<li><a href="#assessments-and-exams" data-topic-shortname="assessments-and-exams">Assessments and exams</a></li>
+<li><a href="#changes-and-challenges" data-topic-shortname="changes-and-challenges">Changes and problems while you study</a></li>
+<li><a href="#computing" data-topic-shortname="computing">Computing help</a></li>
+<li><a href="#library" data-topic-shortname="library">Library</a></li>
+<li><a href="#planning-registering-and-paying" data-topic-shortname="planning-registering-and-paying">Planning, enrolling and paying for studies</a></li>
+<li><a href="#policies-and-complaints" data-topic-shortname="policies-and-complaints">Policies and complaints</a></li>
+<li><a href="#disability" data-topic-shortname="disability">Services for disabled students</a></li>
+<li><a href="#study-skills" data-topic-shortname="study-skills">Study skills</a></li>
+<li><a href="#support-and-resources" data-topic-shortname="support-and-resources">Support and resources while you study</a></li>
+<li><a href="#tutorials-and-residential-schools" data-topic-shortname="tutorials-and-residential-schools">Tutorials and residential schools</a></li>
+<li><a href="#careers" data-topic-shortname="careers">Your career</a></li>
+<li><a href="#completing-your-studies" data-topic-shortname="completing-your-studies">Completing your studies</a></li>
 </ul>
 </li>
 
@@ -199,79 +215,6 @@
 
 </div> <!-- end ou-region1 -->
 
-
-<div id="ou-region2">
-
-<div class="filters">
-<ul class="tabs">
-
-<li>
-<a href="#" class="selected">All feedback</a>
-<ul class="sub">
-<li><a href="#">Positive</a></li>
-<li><a href="#">Negative</a></li>
-<li><a href="#">Bug reports</a></li>
-<li><a href="#">Surveys</a></li>
-</ul>
-</li>
-
-</ul>
-</div>
-
-<div class="feedback-list">
-
-<div class="feedback-list-item">
-
-<span class="negative fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i>
-</span>
-
-<h2 class="feedback-list-title"><a href="#">Choosing your modules</a></h2>
-
-<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
-
-<p class="feedback-list-more"><a href="#">Read more</a></p>
-
-</div>
-
-<div class="feedback-list-item">
-
-<span class="positive fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i>
-</span>
-
-<h2 class="feedback-list-title"><a href="#">Enrolment help</a></h2>
-
-<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
-
-<p class="feedback-list-more"><a href="#">Read more</a></p>
-
-</div>
-
-<div class="feedback-list-item">
-
-<span class="bug fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-bug fa-stack-1x fa-inverse"></i>
-</span>
-
-<h2 class="feedback-list-title"><a href="#">DSA eligibility</a></h2>
-
-<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
-
-<p class="feedback-list-more"><a href="#">Read more</a></p>
-
-</div>
-
-<p><i class="fa fa-caret-right"></i> <a href="#" class="no-underline">See all feedback</a></p>
-
-
-</div>
-
-
-</div> <!-- end ou-region2 -->
 
 </div> <!-- end ou-page -->
 
