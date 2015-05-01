@@ -1,19 +1,20 @@
-// JavaScript Document
+// Healthiness App JavaScripts
 
 
 $(document).ready(function(){
 
+
 // SHOW/HIDE MOBILE MENU
 
-
-	$(".ou-mobile-menu-toggle").click(function(){
-	$("#ou-header nav").toggleClass("visible");
-	$('a.ou-mobile-menu-toggle').toggleClass('closed open')
-		return false;
-	})
+$(".ou-mobile-menu-toggle").click(function(){
+$("#ou-header nav").toggleClass("visible");
+$('a.ou-mobile-menu-toggle').toggleClass('closed open')
+	return false;
+})
 
 
 // FILTER NAV
+// this adds/removes a class to the filter nav on click for mobile users
 
 var screencheck = window.matchMedia("(max-width: 768px)");
 if (screencheck.matches) {
