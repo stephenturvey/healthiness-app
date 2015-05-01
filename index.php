@@ -100,8 +100,8 @@
 <thead>
 <tr>
 <th class="row-number"></th>
-<th class="page-title">Page title</th>
-<th class="health">Health</th>
+<th class="page-title">Title</th>
+<th class="health">Health <img src="img/icon-sort.png" alt=""></th>
 <th class="feedback">Feedback</th>
 </tr>
 </thead>

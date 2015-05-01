@@ -99,9 +99,9 @@
 </li>
 
 <li>
-<a href="#" class="selected">Last 30 days</a>
+<a href="#" class="selected">Last 60 days</a>
 <ul class="sub">
-<li><a href="#">Last 60 days</a></li>
+<li><a href="#">Last 30 days</a></li>
 <li><a href="#">All time</a></li>
 <li><a href="#">Specify dates</a></li>
 </ul>
@@ -116,85 +116,140 @@
 <thead>
 <tr>
 <th class="row-number"></th>
-<th class="page-title">Page title</th>
+<th class="page-title">Title <img src="img/icon-sort.png" alt=""></th>
 <th class="health">Health</th>
 <th class="feedback">Feedback</th>
+<th class="feedback">Pageviews</th>
+<th class="feedback">Unique</th>
+<th class="feedback">Exit to contacts</th>
+<th class="feedback">Time on page</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td><a href="#">Your contacts</a></td>
+<td><a href="#">Assessment and exams</a></td>
 <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
+<td>12,093</td>
+<td>10,740</td>
+<td>40%</td>
+<td>0:56</td>
 </tr>
 <tr>
 <td>2</td>
-<td><a href="#">Funding your studies</a></td>
+<td><a href="#">Changes and problems while you study</a></td>
 <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
+<td>5,294</td>
+<td>3,238</td>
+<td>32%</td>
+<td>1:15</td>
 </tr>
 <tr>
-<td>3</td>
-<td><a href="#">Disabled students</a></td>
-<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
-</tr>
+  <td>3</td>
+  <td><a href="#">Completing your studies</a></td>
+  <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+  <td>18,994</td>
+  <td>15,583</td>
+  <td>51%</td>
+  <td>0:22</td>
+  </tr>
 <tr>
 <td>4</td>
-<td><a href="#">DSA eligibility</a></td>
-<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
+<td><a href="#">Computing help</a></td>
+<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
+<td>10,048</td>
+<td>7,230</td>
+<td>11%</td>
+<td>0:49</td>
 </tr>
 <tr>
 <td>5</td>
-<td><a href="#">Enrolment help</a></td>
-<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 17</a></td>
+<td><a href="#">Library</a></td>
+<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+<td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
+<td>3,228</td>
+<td>2,937</td>
+<td>25%</td>
+<td>2:11</td>
 </tr>
 <tr>
 <td>6</td>
-<td><a href="#">Exam arrangements for disabled students</a></td>
-<td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 10</a></td>
+<td><a href="#">Planning, enrolling and paying for studies</a></td>
+<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
+<td><a href="#"><i class="fa fa-comment-o"></i> 17</a></td>
+<td>7,739</td>
+<td>5,053</td>
+<td>8%</td>
+<td>1:16</td>
 </tr>
 <tr>
 <td>7</td>
-<td><a href="#">Changing your modules q3</a></td>
-<td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 1</a></td>
+<td><a href="#">Policies and complaints</a></td>
+<td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td><a href="#"><i class="fa fa-comment-o"></i> 10</a></td>
+<td>9,025</td>
+<td>7,259</td>
+<td>35%</td>
+<td>0:48</td>
 </tr>
 <tr>
 <td>8</td>
-<td><a href="#">Choosing your modules</a></td>
-<td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 3</a></td>
+<td><a href="#">Services for disabled students</a></td>
+<td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
+<td><a href="#"><i class="fa fa-comment-o"></i> 1</a></td>
+<td>14,477</td>
+<td>11,885</td>
+<td>12%</td>
+<td>2:55</td>
 </tr>
 <tr>
 <td>9</td>
-<td><a href="#">CMA and TMA</a></td>
-<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+<td><a href="#">Study skills</a></td>
+<td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+<td><a href="#"><i class="fa fa-comment-o"></i> 3</a></td>
+<td>10,345</td>
+<td>8,601</td>
+<td>13%</td>
+<td>1:45</td>
 </tr>
 <tr>
 <td>10</td>
-<td><a href="#">Notetaking techniques</a></td>
-<td>28% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 20</a></td>
+<td><a href="#">Support and resources while you study</a></td>
+<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+<td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+<td>9,437</td>
+<td>8,116</td>
+<td>41%</td>
+<td>0:37</td>
 </tr>
+<tr>
+  <td>11</td>
+  <td><a href="#">Tutorials and residential schools</a></td>
+  <td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+  <td><a href="#"><i class="fa fa-comment-o"></i> 1</a></td>
+  <td>11,486</td>
+  <td>8,641</td>
+  <td>29%</td>
+  <td>0:20</td>
+  </tr>
+<tr>
+  <td>12</td>
+  <td><a href="#">Your career</a></td>
+  <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td><a href="#"><i class="fa fa-comment-o"></i> 3</a></td>
+  <td>4,803</td>
+  <td>4,006</td>
+  <td>15%</td>
+  <td>1:48</td>
+  </tr>
 </tbody>
 </table>
 </div>
 
-<div class="ou-paged">
-  <ul>
-    <li><strong>1</strong></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-  </ul>
-  <p>Show: <strong>10</strong> - <a href="#">20</a> - <a href="#">50</a> - <a href="#">100</a></p>
-</div>
 
 <hr>
 
