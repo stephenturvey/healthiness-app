@@ -436,6 +436,9 @@ p.active-users em {
 	z-index: 999;
 }
 
+#ou-region2 .filters ul.tabs li ul.sub {width: 175px;}
+
+
 
 @media screen and (min-width: 769px) {
 
@@ -531,6 +534,8 @@ p.active-users em {
 	border-radius: 0;
 	display:none;
 }
+
+#ou-region2 .filters ul.tabs li ul.sub {width:320px;}
 
 .filters ul.tabs li.open ul.sub {display: block;}
 
