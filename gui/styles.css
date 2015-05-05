@@ -468,19 +468,23 @@ p.active-users em {
 	background: #000;
 }
 
-.filters ul.tabs li.closed ul.sub {display:none;} /* test */
 
 
 /* ipad */
 
+@media screen and (max-width: 1024px) {
+
+.filters ul.tabs li.closed ul.sub {display:none;}
+
+} /* end media query */
+
 @media screen and (max-width: 768px) {
 	
-.filters ul.tabs li ul.sub,
-.filters ul.tabs li.closed ul.sub {display:none;}
+.filters ul.tabs li ul.sub {display:none;}
 
 .filters ul.tabs li.open ul.sub {display: block;}
 
-}
+} /* end media query */
 
 
 /* mobile */

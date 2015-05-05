@@ -13,7 +13,7 @@ $('a.ou-mobile-menu-toggle').toggleClass('closed open')
 })
 
 
-// FILTER NAV
+// FILTER NAV OLD VERSION
 // this adds/removes a class to the filter nav on click for mobile users
 
 //var screencheck = window.matchMedia("(max-width: 413px)");
@@ -33,6 +33,8 @@ $('a.ou-mobile-menu-toggle').toggleClass('closed open')
 
 //}
 
+// FILTER NAV
+// this adds/removes a class to the filter nav on click for mobile users
 
 
 $(".filters ul.tabs > li > a").click(function(){
@@ -72,7 +74,6 @@ $(".filters ul.tabs > li > a").click(function(){
 			$target.addClass('open');
 
     }
-		
 	
 	else {$target.addClass('open');}
 		
