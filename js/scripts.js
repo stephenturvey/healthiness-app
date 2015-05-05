@@ -16,7 +16,7 @@ $('a.ou-mobile-menu-toggle').toggleClass('closed open')
 // FILTER NAV
 // this adds/removes a class to the filter nav on click for mobile users
 
-var screencheck = window.matchMedia("(max-width: 400px)");
+var screencheck = window.matchMedia("(max-width: 413px)");
 if (screencheck.matches) {
 
 $(".filters ul.tabs > li > a").click(function(){

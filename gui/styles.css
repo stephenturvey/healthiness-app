@@ -437,13 +437,12 @@ p.active-users em {
 }
 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 413px) {
 
 .filters ul.tabs li:hover ul.sub {display: block;}
 
 }
 
-.filters ul.tabs li.open ul.sub {display: block;}
 
 .filters ul.tabs li ul.sub li {
 	clear: left;
@@ -472,7 +471,8 @@ p.active-users em {
 
 /* mobile view */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 413px) {
+
 
 .filters ul.tabs {
 	margin: 0 0 10px 0;
@@ -511,7 +511,10 @@ p.active-users em {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border-radius: 0;
+	display:none;
 }
+
+.filters ul.tabs li.open ul.sub {display: block;}
 
 .filters ul.tabs li ul.sub li a {
 	padding: 15px;
