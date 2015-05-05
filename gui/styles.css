@@ -468,6 +468,9 @@ p.active-users em {
 	background: #000;
 }
 
+.filters ul.tabs li.closed ul.sub {display:none;} /* test */
+
+
 /* ipad */
 
 @media screen and (max-width: 768px) {
