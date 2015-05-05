@@ -443,6 +443,8 @@ p.active-users em {
 
 }
 
+.filters ul.tabs li:hover ul.sub {display: block;} /* del */
+
 .filters ul.tabs li.open ul.sub {display: block;}
 
 .filters ul.tabs li ul.sub li {
@@ -470,7 +472,7 @@ p.active-users em {
 }
 
 
-/* mobile view */
+/* mobile view 
 
 @media screen and (max-width: 768px) {
 
@@ -520,7 +522,7 @@ p.active-users em {
 
 .filters ul.tabs li ul.sub li:last-child a {border-bottom: none;}
 
-}
+}*/
 
 /* end Filters */
 
