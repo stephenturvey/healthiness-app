@@ -388,7 +388,8 @@ p.active-users em {
 	margin-top:-2px;
 }
 
-.filters ul.tabs li a.selected {
+.filters ul.tabs li a.selected,
+.filters ul.tabs li.closed a {
 	background-color:#eee;
 	border-radius:4px;
 }
