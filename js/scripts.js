@@ -19,20 +19,66 @@ $('a.ou-mobile-menu-toggle').toggleClass('closed open')
 //var screencheck = window.matchMedia("(max-width: 413px)");
 //if (screencheck.matches) {
 
-$(".filters ul.tabs > li > a").click(function(){
+//$(".filters ul.tabs > li > a").click(function(){
 	
-	var t=$(this).parent();
+//	var t=$(this).parent();
 	
-	return t.hasClass("open")?t.removeClass("open"):(
+//	return t.hasClass("open")?t.removeClass("open"):(
 	
-	$(".tabs > li.open").removeClass("open"),t.addClass("open")),!1
+//	$(".tabs > li.open").removeClass("open"),t.addClass("open")),!1
 	
-	return false;
+//	return false;
 	
-});
+//});
 
 //}
 
+
+
+$(".filters ul.tabs > li > a").click(function(){
+	
+	$target = $(this).parent();
+	$siblings = $(this).parent().siblings('li');
+		
+    if($target.hasClass('open')){
+	  		  
+			$target.removeClass('open');
+			
+			$target.addClass('closed'); 
+	}	
+	
+    else if($target.hasClass('closed')){
+			
+			$target.removeClass('closed');
+			
+			$siblings.removeClass('open');
+			
+			$siblings.addClass('closed');
+			
+			$target.addClass('open');
+    }
+
+    else if($siblings.hasClass('open')){
+			
+			$siblings.removeClass('open');
+			
+			$siblings.addClass('closed');
+			
+			$target.addClass('open');
+    }
+	
+    else if($siblings.hasClass('closed')){
+			
+			$target.addClass('open');
+
+    }
+		
+	
+	else {$target.addClass('open');}
+		
+	return false;
+	
+});
 
 
 
