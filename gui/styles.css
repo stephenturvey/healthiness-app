@@ -389,9 +389,7 @@ p.active-users em {
 }
 
 .filters ul.tabs li a.selected,
-.filters ul.tabs li.closed a,
-.filters ul.tabs li.closed a:focus,
-.filters ul.tabs li.closed a:active {
+.filters ul.tabs li.closed a {
 	background-color:#eee;
 	border-radius:4px;
 }
@@ -551,6 +549,11 @@ p.active-users em {
 
 .filters ul.tabs li ul.sub li:last-child a {border-bottom: none;}
 
+}
+
+.filters ul.tabs li.closed a {
+	background-color:#eee;
+	border-radius:4px;
 }
 
 /* end Filters */
