@@ -36,6 +36,8 @@ $('a.ou-mobile-menu-toggle').toggleClass('closed open')
 // FILTER NAV
 // this adds/removes a class to the filter nav on click for mobile users
 
+var screencheck = window.matchMedia("(max-width: 1024px)");
+if (screencheck.matches) {
 
 $(".filters ul.tabs > li > a").click(function(){
 	
@@ -81,6 +83,7 @@ $(".filters ul.tabs > li > a").click(function(){
 	
 });
 
+}
 
 
 });

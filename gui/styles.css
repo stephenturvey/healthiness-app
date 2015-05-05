@@ -393,13 +393,15 @@ p.active-users em {
 	border-radius:4px;
 }
 
-.filters ul.tabs li a.selected:hover {
+.filters ul.tabs li a.selected:hover,
+.filters ul.tabs li.open a {
 	border-radius:4px 4px 0 0;
 	background-color:#CF6041;
 	color:#fff;
 }
 
-.filters ul.tabs li a.selected:hover:after {border-top: 4px solid #fff;}
+.filters ul.tabs li a.selected:hover:after,
+.filters ul.tabs li.open a:after {border-top: 4px solid #fff;}
 
 
 /* desktop view */
