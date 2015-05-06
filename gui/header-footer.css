@@ -66,6 +66,18 @@ a.ou-skip:active {
 	float:left;
 }
 
+#ou-header .ou-header-content a.site-logo {
+	float:left;
+	display:inline-block;
+	width:auto;
+	padding-left:55px;
+	height:43px;
+	margin-top:15px;
+	color:#fff;
+	text-decoration:none;
+	background:url(icon-logo.png) top left no-repeat;
+}
+
 #ou-header nav {
 	float:right;
 	margin:0;

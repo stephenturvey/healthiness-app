@@ -18,7 +18,8 @@
 <div id="ou-header" class="ou-grid">
 
 <div class="ou-header-content">
-<a href="index.php" class="logo"><img src="img/logo.png" alt="Help Centre Healthiness"></a>
+
+<a href="index.php" class="site-logo">Help Centre Healthiness</a>
 
 <a href="#" class="ou-mobile-menu-toggle closed">Toggle navigation</a>
 

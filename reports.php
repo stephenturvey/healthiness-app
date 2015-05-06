@@ -70,36 +70,38 @@
 <div id="ou-content" class="ou-content">
 
 <ul class="ou-tabs">
-<li><a href="reports.php" class="ou-selected">Standard</a></li>
+<li><a href="reports.php" class="ou-selected">Articles</a></li>
+<li><a href="reports-cats.php">Categories</a></li>
+<li><a href="reports-example-topics.php">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
 <li><a href="reports-keywords.php">Keywords</a></li>
 </ul>
 
 <div class="filters">
 <ul class="tabs">
-
+<!--
 <li>
 <a href="reports.php" class="selected">Articles</a>
 <ul class="sub">
 <li><a href="reports-example-topics.php">Topics</a></li>
 </ul>
 </li>
-
+-->
 <li>
-<a href="#" class="selected">All topics</a>
+<a href="reports.php" class="selected">All articles</a>
 <ul class="sub">
-<li><a href="#assessments-and-exams" data-topic-shortname="assessments-and-exams">Assessments and exams</a></li>
-<li><a href="#changes-and-challenges" data-topic-shortname="changes-and-challenges">Changes and problems while you study</a></li>
-<li><a href="#computing" data-topic-shortname="computing">Computing help</a></li>
-<li><a href="#library" data-topic-shortname="library">Library</a></li>
-<li><a href="#planning-registering-and-paying" data-topic-shortname="planning-registering-and-paying">Planning, enrolling and paying for studies</a></li>
-<li><a href="#policies-and-complaints" data-topic-shortname="policies-and-complaints">Policies and complaints</a></li>
-<li><a href="#disability" data-topic-shortname="disability">Services for disabled students</a></li>
-<li><a href="#study-skills" data-topic-shortname="study-skills">Study skills</a></li>
-<li><a href="#support-and-resources" data-topic-shortname="support-and-resources">Support and resources while you study</a></li>
-<li><a href="#tutorials-and-residential-schools" data-topic-shortname="tutorials-and-residential-schools">Tutorials and residential schools</a></li>
-<li><a href="#careers" data-topic-shortname="careers">Your career</a></li>
-<li><a href="#completing-your-studies" data-topic-shortname="completing-your-studies">Completing your studies</a></li>
+<li><a href="reports-example-allarticles-topics.php">Assessments and exams*</a></li>
+<li><a href="#">Changes and problems while you study</a></li>
+<li><a href="#">Computing help</a></li>
+<li><a href="#">Library</a></li>
+<li><a href="#">Planning, enrolling and paying for studies</a></li>
+<li><a href="#">Policies and complaints</a></li>
+<li><a href="#">Services for disabled students</a></li>
+<li><a href="#">Study skills</a></li>
+<li><a href="#">Support and resources while you study</a></li>
+<li><a href="#">Tutorials and residential schools</a></li>
+<li><a href="#">Your career</a></li>
+<li><a href="#">Completing your studies</a></li>
 </ul>
 </li>
 

@@ -71,8 +71,8 @@
 
 <ul class="ou-tabs">
 <li><a href="reports.php">Articles</a></li>
-<li><a href="reports-cats.php">Categories</a></li>
-<li><a href="reports-example-topics.php" class="ou-selected">Topics</a></li>
+<li><a href="reports-cats.php" class="ou-selected">Categories</a></li>
+<li><a href="reports-example-topics.php">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
 <li><a href="reports-keywords.php">Keywords</a></li>
 </ul>
@@ -81,16 +81,16 @@
 <ul class="tabs">
 <!--
 <li>
-<a href="reports-example-topics.php" class="selected">Topics</a>
+<a href="reports.php" class="selected">Articles</a>
 <ul class="sub">
-<li><a href="reports.php">Articles</a></li>
+<li><a href="reports-example-topics.php">Topics</a></li>
 </ul>
 </li>
 -->
 <li>
-<a href="reports-example-topics-categories.php" class="selected">Assessments and exams</a>
+<a href="reports-cats.php" class="selected">All categories</a>
 <ul class="sub">
-<li><a href="reports-example-topics.php">All topics*</a></li>
+<li><a href="reports-cats-by-topic.php">Assessments and exams*</a></li>
 <li><a href="#">Changes and problems while you study</a></li>
 <li><a href="#">Computing help</a></li>
 <li><a href="#">Library</a></li>
@@ -104,18 +104,6 @@
 <li><a href="#">Completing your studies</a></li>
 </ul>
 </li>
-
-<li>
-<a href="reports-example-topics-categories-articles.php" class="selected">Results</a>
-<ul class="sub">
-<li><a href="reports-example-topics-categories.php">All categories*</a></li>
-<li><a href="#">Exams and EMAs</a></li>
-<li><a href="#">Assignments</a></li>
-<li><a href="#">Revision</a></li>
-<li><a href="#">Resits and resubmissions</a></li>
-</ul>
-</li>
-
 
 <li>
 <a href="#" class="selected">Last 30 days</a>
@@ -145,50 +133,120 @@
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>1</td>
-<td><a href="#">Estimating your module results</a></td>
-<td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
-<td>12,093</td>
-<td>10,740</td>
-<td>40%</td>
-<td>0:56</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="#">Reflecting on your module results</a></td>
-<td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
-<td>5,294</td>
-<td>3,238</td>
-<td>32%</td>
-<td>1:15</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td><a href="#">What happens if I fail my module?</a></td>
-  <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
-  <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
-  <td>18,994</td>
-  <td>15,583</td>
-  <td>51%</td>
-  <td>0:22</td>
+  <tr>
+    <td>1</td>
+    <td><a href="#">Exams and EMAs</a></td>
+    <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
+    <td>12,093</td>
+    <td>10,740</td>
+    <td>40%</td>
+    <td>0:56</td>
   </tr>
-<tr>
-<td>4</td>
-<td><a href="#">Your module results</a></td>
-<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
-<td>10,048</td>
-<td>7,230</td>
-<td>11%</td>
-<td>0:49</td>
-</tr>
+  <tr>
+    <td>2</td>
+    <td><a href="#">Degree ceremonies</a></td>
+    <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
+    <td>5,294</td>
+    <td>3,238</td>
+    <td>32%</td>
+    <td>1:15</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><a href="#">Referencing guidelines</a></td>
+    <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+    <td>18,994</td>
+    <td>15,583</td>
+    <td>51%</td>
+    <td>0:22</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><a href="#">Revision</a></td>
+    <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
+    <td>10,048</td>
+    <td>7,230</td>
+    <td>11%</td>
+    <td>0:49</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><a href="#">Resits and resubmissions</a></td>
+    <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
+    <td>3,228</td>
+    <td>2,937</td>
+    <td>25%</td>
+    <td>2:11</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><a href="#">Core skills</a></td>
+    <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
+    <td>12,093</td>
+    <td>10,740</td>
+    <td>40%</td>
+    <td>0:56</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><a href="#">Job hunting</a></td>
+    <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
+    <td>5,294</td>
+    <td>3,238</td>
+    <td>32%</td>
+    <td>1:15</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><a href="#">Residential schools</a></td>
+    <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+    <td>18,994</td>
+    <td>15,583</td>
+    <td>51%</td>
+    <td>0:22</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td><a href="#">Careers service</a></td>
+    <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
+    <td>10,048</td>
+    <td>7,230</td>
+    <td>11%</td>
+    <td>0:49</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td><a href="#">Ongoing skills</a></td>
+    <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+    <td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
+    <td>3,228</td>
+    <td>2,937</td>
+    <td>25%</td>
+    <td>2:11</td>
+  </tr>
 </tbody>
 </table>
 </div>
 
+
+<div class="ou-paged">
+  <ul>
+    <li><strong>1</strong></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+  </ul>
+  <p>Show: <strong>10</strong> - <a href="#">20</a> - <a href="#">50</a> - <a href="#">100</a></p>
+</div>
 
 <hr>
 

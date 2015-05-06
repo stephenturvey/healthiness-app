@@ -70,9 +70,9 @@
 <div id="ou-content" class="ou-content">
 
 <ul class="ou-tabs">
-<li><a href="reports.php">Articles</a></li>
+<li><a href="reports.php" class="ou-selected">Articles</a></li>
 <li><a href="reports-cats.php">Categories</a></li>
-<li><a href="reports-example-topics.php" class="ou-selected">Topics</a></li>
+<li><a href="reports-example-topics.php">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
 <li><a href="reports-keywords.php">Keywords</a></li>
 </ul>
@@ -90,7 +90,7 @@
 <li>
 <a href="reports-example-topics-categories.php" class="selected">Assessments and exams</a>
 <ul class="sub">
-<li><a href="reports-example-topics.php">All topics*</a></li>
+<li><a href="reports.php">All topics*</a></li>
 <li><a href="#">Changes and problems while you study</a></li>
 <li><a href="#">Computing help</a></li>
 <li><a href="#">Library</a></li>
@@ -106,9 +106,9 @@
 </li>
 
 <li>
-<a href="reports-example-topics-categories-articles.php" class="selected">Results</a>
+<a href="reports-example-allarticles-topics-categories.php" class="selected">Results</a>
 <ul class="sub">
-<li><a href="reports-example-topics-categories.php">All categories*</a></li>
+<li><a href="reports-example-allarticles-topics.php">All categories*</a></li>
 <li><a href="#">Exams and EMAs</a></li>
 <li><a href="#">Assignments</a></li>
 <li><a href="#">Revision</a></li>
@@ -128,6 +128,7 @@
 
 </ul>
 </div>
+
 
 
 <div class="ou-table-wrap">
@@ -186,8 +187,8 @@
 <td>0:49</td>
 </tr>
 </tbody>
-</table>
-</div>
+</table></div>
+
 
 
 <hr>
@@ -199,6 +200,7 @@
 <li><a href="#"><i class="fa fa-download colour1"></i> Download this table</a></li>
 
 </ul>
+
 
 
 
