@@ -78,7 +78,6 @@
 <a href="#" class="selected">Articles</a>
 <ul class="sub">
 <li><a href="#">Topics</a></li>
-<li><a href="#">Compare</a></li>
 </ul>
 </li>
 

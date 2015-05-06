@@ -79,16 +79,15 @@
 <ul class="tabs">
 
 <li>
-<a href="reports.php" class="selected">Articles</a>
+<a href="reports-example-topics.php" class="selected">Topics</a>
 <ul class="sub">
-<li><a href="reports-example-topics.php">Topics</a></li>
+<li><a href="reports.php">Articles</a></li>
 </ul>
 </li>
 
 <li>
-<a href="#" class="selected">All topics</a>
+<a href="#" class="selected">Assessments and exams</a>
 <ul class="sub">
-<li><a href="#assessments-and-exams" data-topic-shortname="assessments-and-exams">Assessments and exams</a></li>
 <li><a href="#changes-and-challenges" data-topic-shortname="changes-and-challenges">Changes and problems while you study</a></li>
 <li><a href="#computing" data-topic-shortname="computing">Computing help</a></li>
 <li><a href="#library" data-topic-shortname="library">Library</a></li>
@@ -102,6 +101,17 @@
 <li><a href="#completing-your-studies" data-topic-shortname="completing-your-studies">Completing your studies</a></li>
 </ul>
 </li>
+
+<li>
+<a href="#" class="selected">Results</a>
+<ul class="sub">
+<li><a href="#">Exams and EMAs</a></li>
+<li><a href="#">Assignments</a></li>
+<li><a href="#">Revision</a></li>
+<li><a href="#">Resits and resubmissions</a></li>
+</ul>
+</li>
+
 
 <li>
 <a href="#" class="selected">Last 30 days</a>
@@ -133,7 +143,7 @@
 <tbody>
 <tr>
 <td>1</td>
-<td><a href="#">Your contacts</a></td>
+<td><a href="#">Estimating your module results</a></td>
 <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
 <td>12,093</td>
@@ -143,7 +153,7 @@
 </tr>
 <tr>
 <td>2</td>
-<td><a href="#">Funding your studies</a></td>
+<td><a href="#">Reflecting on your module results</a></td>
 <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
 <td>5,294</td>
@@ -153,7 +163,7 @@
 </tr>
 <tr>
   <td>3</td>
-<td><a href="#">Disabled students</a></td>
+  <td><a href="#">What happens if I fail my module?</a></td>
   <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
   <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
   <td>18,994</td>
@@ -163,7 +173,7 @@
   </tr>
 <tr>
 <td>4</td>
-<td><a href="#">DSA eligibility</a></td>
+<td><a href="#">Your module results</a></td>
 <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
 <td>10,048</td>
@@ -171,80 +181,10 @@
 <td>11%</td>
 <td>0:49</td>
 </tr>
-<tr>
-<td>5</td>
-<td><a href="#">Enrolment help</a></td>
-<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
-<td>3,228</td>
-<td>2,937</td>
-<td>25%</td>
-<td>2:11</td>
-</tr>
-<tr>
-<td>6</td>
-<td><a href="#">Exam arrangements for disabled students</a></td>
-<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 17</a></td>
-<td>7,739</td>
-<td>5,053</td>
-<td>8%</td>
-<td>1:16</td>
-</tr>
-<tr>
-<td>7</td>
-<td><a href="#">CMA and TMA</a></td>
-<td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 10</a></td>
-<td>9,025</td>
-<td>7,259</td>
-<td>35%</td>
-<td>0:48</td>
-</tr>
-<tr>
-<td>8</td>
-<td><a href="#">Notetaking techniques</a></td>
-<td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 1</a></td>
-<td>14,477</td>
-<td>11,885</td>
-<td>12%</td>
-<td>2:55</td>
-</tr>
-<tr>
-<td>9</td>
-<td><a href="#">Changing your modules q3</a></td>
-<td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 3</a></td>
-<td>10,345</td>
-<td>8,601</td>
-<td>13%</td>
-<td>1:45</td>
-</tr>
-<tr>
-<td>10</td>
-<td><a href="#">Choosing your modules</a></td>
-<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
-<td>9,437</td>
-<td>8,116</td>
-<td>41%</td>
-<td>0:37</td>
-</tr>
 </tbody>
 </table>
 </div>
 
-
-<div class="ou-paged">
-  <ul>
-    <li><strong>1</strong></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-  </ul>
-  <p>Show: <strong>10</strong> - <a href="#">20</a> - <a href="#">50</a> - <a href="#">100</a></p>
-</div>
 
 <hr>
 
