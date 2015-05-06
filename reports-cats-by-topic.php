@@ -135,9 +135,9 @@
 <tbody>
   <tr>
     <td>1</td>
-    <td><a href="#">Exams and EMAs</a></td>
+    <td>Exams and EMAs</td>
     <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
-    <td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
+    <td> 13</td>
     <td>12,093</td>
     <td>10,740</td>
     <td>40%</td>
@@ -145,9 +145,9 @@
   </tr>
   <tr>
     <td>2</td>
-    <td><a href="#">Results</a></td>
+    <td>Results</td>
     <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
-    <td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
+    <td> 5</td>
     <td>5,294</td>
     <td>3,238</td>
     <td>32%</td>
@@ -155,9 +155,9 @@
   </tr>
   <tr>
     <td>3</td>
-    <td><a href="#">Assignments</a></td>
+    <td>Assignments</td>
     <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
-    <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+    <td> 9</td>
     <td>18,994</td>
     <td>15,583</td>
     <td>51%</td>
@@ -165,9 +165,9 @@
   </tr>
   <tr>
     <td>4</td>
-    <td><a href="#">Revision</a></td>
+    <td>Revision</td>
     <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
-    <td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
+    <td> 2</td>
     <td>10,048</td>
     <td>7,230</td>
     <td>11%</td>
@@ -175,9 +175,9 @@
   </tr>
   <tr>
     <td>5</td>
-    <td><a href="#">Resits and resubmissions</a></td>
+    <td>Resits and resubmissions</td>
     <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
-    <td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
+    <td> 0</td>
     <td>3,228</td>
     <td>2,937</td>
     <td>25%</td>
