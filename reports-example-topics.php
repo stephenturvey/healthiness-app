@@ -128,11 +128,12 @@
 <th class="row-number"></th>
 <th class="page-title">Title</th>
 <th class="health">Health <span class="page-title"> <img src="img/icon-sort.png" alt=""></span></th>
+<th class="feedback">Yeses</th>
+<th class="feedback">Nos</th>
 <th class="feedback">Feedback</th>
 <th class="feedback">Pageviews</th>
 <th class="feedback">Unique</th>
 <th class="feedback">Exit to contacts</th>
-<th class="feedback">Time on page</th>
 </tr>
 </thead>
 <tbody>
@@ -140,121 +141,133 @@
 <td>1</td>
 <td>Assessment and exams</td>
 <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+<td>10 (25%)</td>
+<td>30 (75%)</td>
 <td> 13</td>
 <td>12,093</td>
 <td>10,740</td>
 <td>40%</td>
-<td>0:56</td>
 </tr>
 <tr>
 <td>2</td>
 <td>Changes and problems while you study</td>
 <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+<td>40 (40%)</td>
+<td>60 (60%)</td>
 <td> 5</td>
 <td>5,294</td>
 <td>3,238</td>
 <td>32%</td>
-<td>1:15</td>
 </tr>
 <tr>
   <td>3</td>
   <td>Completing your studies</td>
   <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td>10 (25%)</td>
+  <td>30 (75%)</td>
   <td> 9</td>
   <td>18,994</td>
   <td>15,583</td>
   <td>51%</td>
-  <td>0:22</td>
   </tr>
 <tr>
 <td>4</td>
 <td>Computing help</td>
 <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td>40 (40%)</td>
+<td>60 (60%)</td>
 <td> 2</td>
 <td>10,048</td>
 <td>7,230</td>
 <td>11%</td>
-<td>0:49</td>
 </tr>
 <tr>
 <td>5</td>
 <td>Library</td>
 <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+<td>10 (25%)</td>
+<td>30 (75%)</td>
 <td> 0</td>
 <td>3,228</td>
 <td>2,937</td>
 <td>25%</td>
-<td>2:11</td>
 </tr>
 <tr>
 <td>6</td>
 <td>Planning, enrolling and paying for studies</td>
 <td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
+<td>40 (40%)</td>
+<td>60 (60%)</td>
 <td> 17</td>
 <td>7,739</td>
 <td>5,053</td>
 <td>8%</td>
-<td>1:16</td>
 </tr>
 <tr>
 <td>7</td>
 <td>Policies and complaints</td>
 <td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td>10 (25%)</td>
+<td>30 (75%)</td>
 <td> 10</td>
 <td>9,025</td>
 <td>7,259</td>
 <td>35%</td>
-<td>0:48</td>
 </tr>
 <tr>
 <td>8</td>
 <td>Services for disabled students</td>
 <td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
+<td>40 (40%)</td>
+<td>60 (60%)</td>
 <td> 1</td>
 <td>14,477</td>
 <td>11,885</td>
 <td>12%</td>
-<td>2:55</td>
 </tr>
 <tr>
 <td>9</td>
 <td>Study skills</td>
 <td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+<td>10 (25%)</td>
+<td>30 (75%)</td>
 <td> 3</td>
 <td>10,345</td>
 <td>8,601</td>
 <td>13%</td>
-<td>1:45</td>
 </tr>
 <tr>
 <td>10</td>
 <td>Support and resources while you study</td>
 <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+<td>40 (40%)</td>
+<td>60 (60%)</td>
 <td> 9</td>
 <td>9,437</td>
 <td>8,116</td>
 <td>41%</td>
-<td>0:37</td>
 </tr>
 <tr>
   <td>11</td>
   <td>Tutorials and residential schools</td>
   <td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+  <td>10 (25%)</td>
+  <td>30 (75%)</td>
   <td> 1</td>
   <td>11,486</td>
   <td>8,641</td>
   <td>29%</td>
-  <td>0:20</td>
   </tr>
 <tr>
   <td>12</td>
   <td>Your career</td>
   <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td>40 (40%)</td>
+  <td>60 (60%)</td>
   <td> 3</td>
   <td>4,803</td>
   <td>4,006</td>
   <td>15%</td>
-  <td>1:48</td>
   </tr>
 </tbody>
 </table>

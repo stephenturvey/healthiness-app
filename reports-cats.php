@@ -126,10 +126,11 @@
 <th class="page-title">Title</th>
 <th class="health">Health <span class="page-title"><img src="img/icon-sort.png" alt=""></span></th>
 <th class="feedback">Feedback</th>
+<th class="feedback">Yeses</th>
+<th class="feedback">Nos</th>
 <th class="feedback">Pageviews</th>
 <th class="feedback">Unique</th>
 <th class="feedback">Exit to contacts</th>
-<th class="feedback">Time on page</th>
 </tr>
 </thead>
 <tbody>
@@ -138,101 +139,111 @@
     <td>Exams and EMAs</td>
     <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
     <td> 13</td>
+    <td>10 (25%)</td>
+    <td>30 (75%)</td>
     <td>12,093</td>
     <td>10,740</td>
     <td>40%</td>
-    <td>0:56</td>
-  </tr>
+    </tr>
   <tr>
     <td>2</td>
     <td>Degree ceremonies</td>
     <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
     <td> 5</td>
+    <td>40 (40%)</td>
+    <td>60 (60%)</td>
     <td>5,294</td>
     <td>3,238</td>
     <td>32%</td>
-    <td>1:15</td>
-  </tr>
+    </tr>
   <tr>
     <td>3</td>
     <td>Referencing guidelines</td>
     <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
     <td> 9</td>
+    <td>10 (25%)</td>
+    <td>30 (75%)</td>
     <td>18,994</td>
     <td>15,583</td>
     <td>51%</td>
-    <td>0:22</td>
-  </tr>
+    </tr>
   <tr>
     <td>4</td>
     <td>Revision</td>
     <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
     <td> 2</td>
+    <td>40 (40%)</td>
+    <td>60 (60%)</td>
     <td>10,048</td>
     <td>7,230</td>
     <td>11%</td>
-    <td>0:49</td>
-  </tr>
+    </tr>
   <tr>
     <td>5</td>
     <td>Resits and resubmissions</td>
     <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
     <td> 0</td>
+    <td>10 (25%)</td>
+    <td>30 (75%)</td>
     <td>3,228</td>
     <td>2,937</td>
     <td>25%</td>
-    <td>2:11</td>
-  </tr>
+    </tr>
   <tr>
     <td>6</td>
     <td>Core skills</td>
     <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
     <td> 13</td>
+    <td>40 (40%)</td>
+    <td>60 (60%)</td>
     <td>12,093</td>
     <td>10,740</td>
     <td>40%</td>
-    <td>0:56</td>
-  </tr>
+    </tr>
   <tr>
     <td>7</td>
     <td>Job hunting</td>
     <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
     <td> 5</td>
+    <td>10 (25%)</td>
+    <td>30 (75%)</td>
     <td>5,294</td>
     <td>3,238</td>
     <td>32%</td>
-    <td>1:15</td>
-  </tr>
+    </tr>
   <tr>
     <td>8</td>
     <td>Residential schools</td>
     <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
     <td> 9</td>
+    <td>40 (40%)</td>
+    <td>60 (60%)</td>
     <td>18,994</td>
     <td>15,583</td>
     <td>51%</td>
-    <td>0:22</td>
-  </tr>
+    </tr>
   <tr>
     <td>9</td>
     <td>Careers service</td>
     <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
     <td> 2</td>
+    <td>10 (25%)</td>
+    <td>30 (75%)</td>
     <td>10,048</td>
     <td>7,230</td>
     <td>11%</td>
-    <td>0:49</td>
-  </tr>
+    </tr>
   <tr>
     <td>10</td>
     <td>Ongoing skills</td>
     <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
     <td> 0</td>
+    <td>40 (40%)</td>
+    <td>60 (60%)</td>
     <td>3,228</td>
     <td>2,937</td>
     <td>25%</td>
-    <td>2:11</td>
-  </tr>
+    </tr>
 </tbody>
 </table>
 </div>
