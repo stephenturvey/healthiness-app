@@ -72,9 +72,9 @@
 <ul class="ou-tabs">
 <li><a href="reports.php" class="ou-selected">Articles</a></li>
 <li><a href="reports-cats.php">Categories</a></li>
-<li><a href="reports-example-topics.php">Topics</a></li>
+<li><a href="reports-topics.php">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
-<li><a href="reports-keywords.php">Keywords</a></li>
+<li><a href="reports-searches.php">Searches</a></li>
 </ul>
 
 <div class="filters">
@@ -90,7 +90,7 @@
 <li>
 <a href="reports.php" class="selected">All articles</a>
 <ul class="sub">
-<li><a href="reports-example-allarticles-topics.php">Assessments and exams*</a></li>
+<li><a href="reports-arts-by-topic.php">Assessments and exams*</a></li>
 <li><a href="#">Changes and problems while you study</a></li>
 <li><a href="#">Computing help</a></li>
 <li><a href="#">Library</a></li>

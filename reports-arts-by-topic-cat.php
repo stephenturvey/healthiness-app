@@ -70,27 +70,20 @@
 <div id="ou-content" class="ou-content">
 
 <ul class="ou-tabs">
-<li><a href="reports.php">Articles</a></li>
+<li><a href="reports.php" class="ou-selected">Articles</a></li>
 <li><a href="reports-cats.php">Categories</a></li>
-<li><a href="reports-example-topics.php" class="ou-selected">Topics</a></li>
+<li><a href="reports-topics.php">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
-<li><a href="reports-keywords.php">Keywords</a></li>
+<li><a href="reports-searches.php">Searches</a></li>
 </ul>
 
 <div class="filters">
 <ul class="tabs">
-<!--
+
 <li>
-<a href="reports-example-topics.php" class="selected">Topics</a>
+<a href="reports-arts-by-topic.php" class="selected">Assessments and exams</a>
 <ul class="sub">
-<li><a href="reports.php">Articles</a></li>
-</ul>
-</li>
--->
-<li>
-<a href="reports-example-topics-categories.php" class="selected">Assessments and exams</a>
-<ul class="sub">
-<li><a href="reports-example-topics.php">All topics*</a></li>
+<li><a href="reports.php">All topics*</a></li>
 <li><a href="#">Changes and problems while you study</a></li>
 <li><a href="#">Computing help</a></li>
 <li><a href="#">Library</a></li>
@@ -106,10 +99,10 @@
 </li>
 
 <li>
-<a href="reports-example-topics-categories.php" class="selected">All categories</a>
+<a href="reports-arts-by-topic-cat.php" class="selected">Results</a>
 <ul class="sub">
+<li><a href="reports-arts-by-topic.php">All categories*</a></li>
 <li><a href="#">Exams and EMAs</a></li>
-<li><a href="reports-example-topics-categories-articles.php">Results*</a></li>
 <li><a href="#">Assignments</a></li>
 <li><a href="#">Revision</a></li>
 <li><a href="#">Resits and resubmissions</a></li>
@@ -130,6 +123,7 @@
 </div>
 
 
+
 <div class="ou-table-wrap">
 <table>
 <thead>
@@ -138,66 +132,61 @@
 <th class="page-title">Title</th>
 <th class="health">Health <span class="page-title"><img src="img/icon-sort.png" alt=""></span></th>
 <th class="feedback">Feedback</th>
+<th class="feedback">Yeses</th>
+<th class="feedback">Nos</th>
 <th class="feedback">Pageviews</th>
 <th class="feedback">Unique</th>
 <th class="feedback">Exit to contacts</th>
-<th class="feedback">Time on page</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td><a href="#">Exams and EMAs</a></td>
+<td><a href="#">Estimating your module results</a></td>
 <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
+<td>10 (25%)</td>
+<td>30 (75%)</td>
 <td>12,093</td>
 <td>10,740</td>
 <td>40%</td>
-<td>0:56</td>
 </tr>
 <tr>
 <td>2</td>
-<td><a href="#">Results</a></td>
+<td><a href="#">Reflecting on your module results</a></td>
 <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
+<td>40 (40%)</td>
+<td>60 (60%)</td>
 <td>5,294</td>
 <td>3,238</td>
 <td>32%</td>
-<td>1:15</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><a href="#">Assignments</a></td>
+  <td><a href="#">What happens if I fail my module?</a></td>
   <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
   <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+  <td>10 (25%)</td>
+  <td>30 (75%)</td>
   <td>18,994</td>
   <td>15,583</td>
   <td>51%</td>
-  <td>0:22</td>
   </tr>
 <tr>
 <td>4</td>
-<td><a href="#">Revision</a></td>
+<td><a href="#">Your module results</a></td>
 <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
+<td>40 (40%)</td>
+<td>60 (60%)</td>
 <td>10,048</td>
 <td>7,230</td>
 <td>11%</td>
-<td>0:49</td>
-</tr>
-<tr>
-<td>5</td>
-<td><a href="#">Resits and resubmissions</a></td>
-<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
-<td>3,228</td>
-<td>2,937</td>
-<td>25%</td>
-<td>2:11</td>
 </tr>
 </tbody>
-</table>
-</div>
+</table></div>
+
 
 
 <hr>
@@ -209,6 +198,7 @@
 <li><a href="#"><i class="fa fa-download colour1"></i> Download this table</a></li>
 
 </ul>
+
 
 
 

@@ -72,41 +72,13 @@
 <ul class="ou-tabs">
 <li><a href="reports.php">Articles</a></li>
 <li><a href="reports-cats.php">Categories</a></li>
-<li><a href="reports-example-topics.php" class="ou-selected">Topics</a></li>
+<li><a href="reports-topics.php" class="ou-selected">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
-<li><a href="reports-keywords.php">Keywords</a></li>
+<li><a href="reports-searches.php">Searches</a></li>
 </ul>
 
 <div class="filters">
 <ul class="tabs">
-<!--
-<li>
-<a href="reports-example-topics.php" class="selected">Topics</a>
-<ul class="sub">
-<li><a href="reports.php">Articles</a></li>
-</ul>
-</li>
--->
-
-<!--
-<li>
-<a href="reports-example-topics.php" class="selected">All topics</a>
-<ul class="sub">
-<li><a href="reports-example-topics-categories.php">Assessments and exams*</a></li>
-<li><a href="#">Changes and problems while you study</a></li>
-<li><a href="#">Computing help</a></li>
-<li><a href="#">Library</a></li>
-<li><a href="#">Planning, enrolling and paying for studies</a></li>
-<li><a href="#">Policies and complaints</a></li>
-<li><a href="#">Services for disabled students</a></li>
-<li><a href="#">Study skills</a></li>
-<li><a href="#">Support and resources while you study</a></li>
-<li><a href="#">Tutorials and residential schools</a></li>
-<li><a href="#">Your career</a></li>
-<li><a href="#">Completing your studies</a></li>
-</ul>
-</li>
--->
 
 <li>
 <a href="#" class="selected">Last 30 days</a>
@@ -139,7 +111,7 @@
 <tbody>
 <tr>
 <td>1</td>
-<td>Assessment and exams</td>
+<td>Computing help</td>
 <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
@@ -150,7 +122,7 @@
 </tr>
 <tr>
 <td>2</td>
-<td>Changes and problems while you study</td>
+<td>Library</td>
 <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
@@ -172,7 +144,7 @@
   </tr>
 <tr>
 <td>4</td>
-<td>Computing help</td>
+<td>Assessment and exams</td>
 <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
@@ -183,7 +155,7 @@
 </tr>
 <tr>
 <td>5</td>
-<td>Library</td>
+<td>Services for disabled students</td>
 <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
@@ -205,7 +177,7 @@
 </tr>
 <tr>
 <td>7</td>
-<td>Policies and complaints</td>
+<td>Tutorials and residential schools</td>
 <td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
@@ -216,7 +188,7 @@
 </tr>
 <tr>
 <td>8</td>
-<td>Services for disabled students</td>
+<td>Changes and problems while you study</td>
 <td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
@@ -227,7 +199,7 @@
 </tr>
 <tr>
 <td>9</td>
-<td>Study skills</td>
+<td>Your career</td>
 <td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
@@ -249,7 +221,7 @@
 </tr>
 <tr>
   <td>11</td>
-  <td>Tutorials and residential schools</td>
+  <td>Policies and complaints</td>
   <td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
   <td>10 (25%)</td>
   <td>30 (75%)</td>
@@ -260,7 +232,7 @@
   </tr>
 <tr>
   <td>12</td>
-  <td>Your career</td>
+  <td>Study skills</td>
   <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
   <td>40 (40%)</td>
   <td>60 (60%)</td>

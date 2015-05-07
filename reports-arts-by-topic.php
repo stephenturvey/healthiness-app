@@ -72,9 +72,9 @@
 <ul class="ou-tabs">
 <li><a href="reports.php" class="ou-selected">Articles</a></li>
 <li><a href="reports-cats.php">Categories</a></li>
-<li><a href="reports-example-topics.php">Topics</a></li>
+<li><a href="reports-topics.php">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
-<li><a href="reports-keywords.php">Keywords</a></li>
+<li><a href="reports-searches.php">Searches</a></li>
 </ul>
 
 <div class="filters">
@@ -88,7 +88,7 @@
 </li>
 -->
 <li>
-<a href="reports-example-allarticles-topics.php" class="selected">Assessments and exams</a>
+<a href="reports-arts-by-topic.php" class="selected">Assessments and exams</a>
 <ul class="sub">
 <li><a href="reports.php">All articles*</a></li>
 <li><a href="#">Changes and problems while you study</a></li>
@@ -106,10 +106,10 @@
 </li>
 
 <li>
-<a href="reports-example-allarticles-topics.php" class="selected">All categories</a>
+<a href="reports-arts-by-topic.php" class="selected">All categories</a>
 <ul class="sub">
 <li><a href="#">Exams and EMAs</a></li>
-<li><a href="reports-example-allarticles-topics-categories.php">Results*</a></li>
+<li><a href="reports-arts-by-topic-cat.php">Results*</a></li>
 <li><a href="#">Assignments</a></li>
 <li><a href="#">Revision</a></li>
 <li><a href="#">Resits and resubmissions</a></li>

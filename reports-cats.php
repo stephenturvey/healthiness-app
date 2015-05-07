@@ -72,9 +72,9 @@
 <ul class="ou-tabs">
 <li><a href="reports.php">Articles</a></li>
 <li><a href="reports-cats.php" class="ou-selected">Categories</a></li>
-<li><a href="reports-example-topics.php">Topics</a></li>
+<li><a href="reports-topics.php">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
-<li><a href="reports-keywords.php">Keywords</a></li>
+<li><a href="reports-searches.php">Searches</a></li>
 </ul>
 
 <div class="filters">
