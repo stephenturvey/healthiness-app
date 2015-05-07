@@ -69,13 +69,15 @@ a.ou-skip:active {
 #ou-header .ou-header-content a.site-logo {
 	float:left;
 	display:inline-block;
-	width:auto;
-	padding-left:55px;
-	height:43px;
-	margin-top:15px;
+	width:160px;
+	padding:2px 0 0 55px;
+	height:46px;
+	margin:15px 0 13px 0;
 	color:#fff;
 	text-decoration:none;
 	background:url(icon-logo.png) top left no-repeat;
+	box-sizing: border-box;
+	line-height:140%;
 }
 
 #ou-header nav {
@@ -353,6 +355,11 @@ input[type="search"]::-webkit-search-results-button { display: none; }
 @media 
 (-webkit-min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi) { 
+
+#ou-header .ou-header-content a.site-logo {
+	background-image:url(icon-logo@2x.png);
+	background-size:46px 46px;
+}
 
 #ou-header nav ul li.nav-search button {
 	background-image:url(icon-search@2x.png);
