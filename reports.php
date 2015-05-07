@@ -144,7 +144,7 @@
   </tr>
 <tr>
 <td>4</td>
-<td><a href="reports-cats-by-topic.php">Assessment and exams</a></td>
+<td><a href="reports-cats-by-topic.php">Assessment and exams*</a></td>
 <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>

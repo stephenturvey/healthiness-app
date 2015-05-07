@@ -142,7 +142,7 @@
 <tbody>
 <tr>
 <td>1</td>
-<td><a href="reports-article-info.php">Estimating your module results</a></td>
+<td><a href="reports-article-info.php">Estimating your module results*</a></td>
 <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
 <td>10 (25%)</td>

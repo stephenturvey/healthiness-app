@@ -92,51 +92,80 @@
 </ul>
 </div>
 
-<p>Coming soon</p>
-
-<!--
 <div class="ou-table-wrap">
 <table>
 <thead>
 <tr>
-<th class="row-number"></th>
-<th class="page-title">Title</th>
-<th class="health">Health <span class="page-title"> <img src="img/icon-sort.png" alt=""></span></th>
-<th class="feedback">Yeses</th>
-<th class="feedback">Nos</th>
-<th class="feedback">Feedback</th>
-<th class="feedback">Pageviews</th>
-<th class="feedback">Unique</th>
-<th class="feedback">Exit to contacts</th>
+  <th class="row-number"></th>
+  <th class="page-title">Search term</th>
+<th class="feedback">Total <span class="page-title"><img src="img/icon-sort.png" alt=""></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>Computing help</td>
-<td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
-<td>10 (25%)</td>
-<td>30 (75%)</td>
-<td> 13</td>
-<td>12,093</td>
-<td>10,740</td>
-<td>40%</td>
+  <td>1</td>
+  <td>referencing</td>
+<td> 415</td>
 </tr>
 <tr>
-<td>2</td>
-<td>Library</td>
-<td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
-<td>40 (40%)</td>
-<td>60 (60%)</td>
-<td> 5</td>
-<td>5,294</td>
-<td>3,238</td>
-<td>32%</td>
+  <td>2</td>
+  <td>defer</td>
+<td> 381</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>PT39</td>
+  <td> 225</td>
+  </tr>
+<tr>
+  <td>4</td>
+  <td>special circumstances</td>
+<td> 210</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>credit transfer</td>
+<td> 184</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>disabled students</td>
+<td> 127</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>zip</td>
+<td> 94</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>pt39</td>
+<td> 87</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td>change course</td>
+<td> 59</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td>e39</td>
+<td> 58</td>
 </tr>
 </tbody>
 </table>
 </div>
 
+
+<div class="ou-paged">
+  <ul>
+    <li><strong>1</strong></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+  </ul>
+  <p>Show: <strong>10</strong> - <a href="#">20</a> - <a href="#">50</a> - <a href="#">100</a></p>
+</div>
 
 <hr>
 
@@ -147,7 +176,6 @@
 <li><a href="#"><i class="fa fa-download colour1"></i> Download this table</a></li>
 
 </ul>
--->
 
 
 

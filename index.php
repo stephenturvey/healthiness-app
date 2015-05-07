@@ -72,15 +72,17 @@
 
 <div id="ou-content" class="ou-content">
 
+<div class="hc-health">
+<p>The Help Centre is currently <strong>45%</strong> healthy <a href="#" class="tooltip"><i class="fa fa-info-circle colour12"></i><span>This is the average healthiness of all HC articles</span></a></p>
+<div class="hc-health-progress"><span class="hc-45"></span></div>
+</div>
+
+<hr>
+
+<h2>All articles in the last 30 days</h2>
+<!--
 <div class="filters">
 <ul class="tabs">
-
-<li>
-<a href="#" class="selected">Articles</a>
-<ul class="sub">
-<li><a href="#">Topics</a></li>
-</ul>
-</li>
 
 <li>
 <a href="#" class="selected">Last 30 days</a>
@@ -93,7 +95,7 @@
 
 </ul>
 </div>
-
+-->
 
 <div class="ou-table-wrap">
 <table>
@@ -202,6 +204,7 @@
 
 <div id="ou-region2">
 
+<!--
 <div class="filters">
 <ul class="tabs">
 
@@ -217,6 +220,9 @@
 
 </ul>
 </div>
+-->
+
+<h2>Recent feedback</h2>
 
 <div class="feedback-list">
 
@@ -231,7 +237,7 @@
 
 <p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
 
-<p class="feedback-list-more"><a href="#">Read more</a></p>
+<!--<p class="feedback-list-more"><a href="#">Read more</a></p>-->
 
 </div>
 
@@ -246,7 +252,7 @@
 
 <p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
 
-<p class="feedback-list-more"><a href="#">Read more</a></p>
+<!--<p class="feedback-list-more"><a href="#">Read more</a></p>-->
 
 </div>
 
@@ -261,14 +267,26 @@
 
 <p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
 
-<p class="feedback-list-more"><a href="#">Read more</a></p>
+<!--<p class="feedback-list-more"><a href="#">Read more</a></p>-->
 
 </div>
 
-<p><i class="fa fa-caret-right"></i> <a href="#" class="no-underline">See all feedback</a></p>
-
+<!--<p><i class="fa fa-caret-right"></i> <a href="#" class="no-underline">See all feedback</a></p>-->
 
 </div>
+
+
+<h2>Popular searches</h2>
+
+<ul>
+<li>referencing</li>
+<li>defer</li>
+<li>special circumstances</li>
+<li>credit transfer</li>
+<li>PT39</li>
+</ul>
+
+
 
 
 </div> <!-- end ou-region2 -->

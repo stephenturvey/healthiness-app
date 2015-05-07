@@ -346,6 +346,33 @@ p.active-users em {
 	display:inline-block;
 }
 
+.hc-health {
+	background:#444;
+	color:#ccc;	
+	padding:20px 30px 25px 30px;
+	margin:0 0 25px 0;
+	border-radius:3px;
+}
+
+.hc-health p {margin-bottom:10px;}
+
+.hc-health p strong {color:#fff;}
+
+.hc-health-progress {
+	width:100%;
+	height:5px;
+	display:block;
+	background:#ccc;
+}
+
+.hc-health-progress .hc-45 {
+	width:45%;
+	height:5px;
+	display:inline-block;
+	float:left;
+	background:#539d3c;
+}
+
 
 /*
 =========================
@@ -783,7 +810,7 @@ a.tooltip:hover {text-decoration:none;}
 a.tooltip span {
     z-index:10;
 	display:none; 
-	padding:10px 20px;
+	padding:15px 20px;
     margin-top:20px; 
 	margin-left:-20px;
 	line-height:150%;
@@ -791,7 +818,7 @@ a.tooltip span {
 	font-size:13px;
 	font-weight:normal;
 	border-radius:4px;
-    box-shadow: 5px 5px 8px #CCC;
+    /*box-shadow: 5px 5px 8px #CCC;*/
 }
 
 a.tooltip:hover span {

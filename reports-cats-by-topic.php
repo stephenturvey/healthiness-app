@@ -140,7 +140,7 @@
     </tr>
   <tr>
     <td>2</td>
-    <td><a href="reports-arts-by-topic-cat.php">Results</a></td>
+    <td><a href="reports-arts-by-topic-cat.php">Results*</a></td>
     <td>12% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
     <td> 5</td>
     <td>40 (40%)</td>
