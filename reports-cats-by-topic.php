@@ -24,8 +24,8 @@
 
 <nav>
 <ul>
-<li class="nav-dashboard"><a href="index.php"><i class="fa fa-laptop"></i> Dashboard</a></li>
-<li class="nav-reports"><a href="reports.php" class="ou-selected"><i class="fa fa-file-text-o"></i> Reports</a></li>
+<li class="nav-dashboard"><a href="index.php"><i class="fa fa-home"></i> Dashboard</a></li>
+<li class="nav-reports"><a href="reports.php" class="ou-selected"><i class="fa fa-bar-chart"></i> Reports</a></li>
 <li class="nav-feedback"><a href="feedback.php"><i class="fa fa-comment-o"></i> Feedback</a></li>
 <li class="nav-fullscreen"><a href="full-screen.php"><i class="fa fa-expand"></i> Full Screen</a></li>
 <li class="nav-help"><a href="http://www2.open.ac.uk/students/help"><i class="fa fa-external-link"></i> Help Centre</a></li>
