@@ -74,7 +74,7 @@
 
 <div class="hc-health">
 <p>The Help Centre is currently <strong>45%</strong> healthy <a href="#" class="tooltip"><i class="fa fa-info-circle colour12"></i><span>This is the average healthiness of all HC articles</span></a></p>
-<div class="hc-health-progress"><span class="hc-45"></span></div>
+<div class="hc-health-progress ou-grid"><span class="hc-45"></span></div>
 </div>
 
 <hr>

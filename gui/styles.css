@@ -362,7 +362,7 @@ p.active-users em {
 	width:100%;
 	height:5px;
 	display:block;
-	background:#ccc;
+	background:#000;
 }
 
 .hc-health-progress .hc-45 {
@@ -370,7 +370,7 @@ p.active-users em {
 	height:5px;
 	display:inline-block;
 	float:left;
-	background:#539d3c;
+	background:#6ABF4F;
 }
 
 
