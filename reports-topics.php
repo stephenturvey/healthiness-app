@@ -74,7 +74,7 @@
 <li><a href="reports-cats.php">Categories</a></li>
 <li><a href="reports-topics.php" class="ou-selected">Topics</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
-<li><a href="reports-searches.php">Searches</a></li>
+<li><a href="reports-searches.php">Popular searches</a></li>
 </ul>
 
 <div class="filters">
