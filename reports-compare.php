@@ -77,6 +77,7 @@
 <li><a href="reports-searches.php">Popular searches</a></li>
 </ul>
 
+<!--
 <div class="filters">
 <ul class="tabs">
 
@@ -91,6 +92,7 @@
 
 </ul>
 </div>
+-->
 
 <p><img src="img/example.png" alt=""></p>
 
