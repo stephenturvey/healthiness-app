@@ -70,9 +70,9 @@
 <div id="ou-content" class="ou-content">
 
 <ul class="ou-tabs">
-<li><a href="reports.php">Articles</a></li>
+<li><a href="reports.php">Topics</a></li>
 <li><a href="reports-cats.php" class="ou-selected">Categories</a></li>
-<li><a href="reports-topics.php">Topics</a></li>
+<li><a href="reports-articles.php">Articles</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
 <li><a href="reports-searches.php">Searches</a></li>
 </ul>

@@ -206,7 +206,10 @@ h1 {
 	padding:20px 0;
 }
 
-h2 {font-size: 1.8em; margin-bottom:15px;}
+h2 {
+	font-size: 1.8em;
+	margin:0 0 15px 0;
+}
 
 h3 {font-size: 1.5em;}
 
@@ -242,6 +245,8 @@ dl dd {margin-bottom:15px;}
 /* Tables */
 
 .ou-table-wrap {overflow: auto;}
+
+table ul li {margin-bottom:5px;}
 
 table {
 	width: 100%;
@@ -291,6 +296,14 @@ table caption {
 table th.row-number {width:1em;}
 
 table th.health {min-width:6em;}
+
+tr:last-child td {border-bottom: 0;}
+
+/* With headings on left */
+
+table.ou-table-headings-left th {border-bottom-width:1px;}
+
+table.ou-table-headings-left tr:last-child th {border-bottom:0;}
 
 
 /**/
@@ -643,6 +656,9 @@ span.up {
 	margin-left:10px;
 	float:right;
 }
+
+body.article-info span.down,
+body.article-info span.up {float:none;}
 
 table a i.fa-comment-o {color:black;}
 

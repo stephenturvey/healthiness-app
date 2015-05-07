@@ -70,9 +70,9 @@
 <div id="ou-content" class="ou-content">
 
 <ul class="ou-tabs">
-<li><a href="reports.php">Articles</a></li>
+<li><a href="reports.php">Topics</a></li>
 <li><a href="reports-cats.php" class="ou-selected">Categories</a></li>
-<li><a href="reports-topics.php">Topics</a></li>
+<li><a href="reports-articles.php">Articles</a></li>
 <li><a href="reports-compare.php">Compare</a></li>
 <li><a href="reports-searches.php">Searches</a></li>
 </ul>
@@ -129,7 +129,7 @@
 <tbody>
   <tr>
     <td>1</td>
-    <td>Exams and EMAs</td>
+    <td><a href="#">Exams and EMAs</a></td>
     <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
     <td> 13</td>
     <td>10 (25%)</td>
@@ -140,7 +140,7 @@
     </tr>
   <tr>
     <td>2</td>
-    <td>Results</td>
+    <td><a href="reports-arts-by-topic-cat.php">Results</a></td>
     <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
     <td> 5</td>
     <td>40 (40%)</td>
@@ -151,7 +151,7 @@
     </tr>
   <tr>
     <td>3</td>
-    <td>Assignments</td>
+    <td><a href="#">Assignments</a></td>
     <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
     <td> 9</td>
     <td>10 (25%)</td>
@@ -162,7 +162,7 @@
     </tr>
   <tr>
     <td>4</td>
-    <td>Revision</td>
+    <td><a href="#">Revision</a></td>
     <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
     <td> 2</td>
     <td>40 (40%)</td>
@@ -173,7 +173,7 @@
     </tr>
   <tr>
     <td>5</td>
-    <td>Resits and resubmissions</td>
+    <td><a href="#">Resits and resubmissions</a></td>
     <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
     <td> 0</td>
     <td>10 (25%)</td>
