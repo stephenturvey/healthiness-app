@@ -97,7 +97,7 @@
 <table>
 <thead>
 <tr>
-<th class="row-number"></th>
+<th class="row-number"><a href="#" class="tooltip"><i class="fa fa-info-circle colour5"></i><span>You are looking at <strong>all topics</strong> in the Help Centre</span></a></th>
 <th class="page-title">Title</th>
 <th class="health">Health <span class="page-title"> <img src="img/icon-sort.png" alt=""></span></th>
 <th class="feedback">Yeses</th>

@@ -79,14 +79,7 @@
 
 <div class="filters">
 <ul class="tabs">
-<!--
-<li>
-<a href="reports.php" class="selected">Articles</a>
-<ul class="sub">
-<li><a href="reports-example-topics.php">Topics</a></li>
-</ul>
-</li>
--->
+
 <li>
 <a href="reports-cats.php" class="selected">All categories</a>
 <ul class="sub">
@@ -122,7 +115,7 @@
 <table>
 <thead>
 <tr>
-<th class="row-number"></th>
+<th class="row-number"><a href="#" class="tooltip"><i class="fa fa-info-circle colour5"></i><span>You are looking at <strong>all categories</strong> in <strong>all topics</strong></span></a></th>
 <th class="page-title">Title</th>
 <th class="health">Health <span class="page-title"><img src="img/icon-sort.png" alt=""></span></th>
 <th class="feedback">Feedback</th>
