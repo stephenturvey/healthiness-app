@@ -92,7 +92,7 @@
 </ul>
 </div>
 
-<p>Coming soon</p>
+<p><img src="img/example.png" alt=""></p>
 
 <!--
 <div class="ou-table-wrap">

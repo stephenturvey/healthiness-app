@@ -71,6 +71,24 @@
 
 <h2>Estimating your module results <a href="#"><i class="fa fa-external-link"></i></a></h2>
 
+<hr>
+
+<div class="filters">
+<ul class="tabs">
+
+<li>
+<a href="#" class="selected">Last 30 days</a>
+<ul class="sub">
+<li><a href="#">Last 60 days</a></li>
+<li><a href="#">All time</a></li>
+<li><a href="#">Specify dates</a></li>
+</ul>
+</li>
+
+</ul>
+</div>
+
+
 <div class="ou-table-wrap">
 <table class="ou-table-headings-left">
 <tbody>
@@ -138,7 +156,7 @@
 
 
 
-<!--
+
 <ul class="ou-icon-links">
 
 <li><a href="#"><i class="fa fa-envelope-o colour0"></i> Email this table</a></li>
@@ -146,8 +164,8 @@
 <li><a href="#"><i class="fa fa-download colour1"></i> Download this table</a></li>
 
 </ul>
--->
 
+<!--
 <hr>
 
 <h2 id="feedback">Feedback for this page</h2>
@@ -168,7 +186,9 @@
     <p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
     <p class="feedback-list-more"><a href="#">Read more</a></p>
   </div>
-</div>
+</div>-->
+
+
 </div> <!-- end ou-content -->
 
 </div> <!-- end ou-region1 -->

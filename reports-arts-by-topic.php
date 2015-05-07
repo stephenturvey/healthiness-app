@@ -83,7 +83,7 @@
 <li>
 <a href="reports-arts-by-topic.php" class="selected">Assessments and exams</a>
 <ul class="sub">
-<li><a href="reports.php">All articles*</a></li>
+<li><a href="reports-articles.php">All articles*</a></li>
 <li><a href="#">Changes and problems while you study</a></li>
 <li><a href="#">Computing help</a></li>
 <li><a href="#">Library</a></li>

@@ -130,7 +130,7 @@
   <tr>
     <td>1</td>
     <td><a href="#">Exams and EMAs</a></td>
-    <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+    <td>10% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
     <td> 13</td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>
@@ -141,7 +141,7 @@
   <tr>
     <td>2</td>
     <td><a href="reports-arts-by-topic-cat.php">Results</a></td>
-    <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+    <td>12% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
     <td> 5</td>
     <td>40 (40%)</td>
     <td>60 (60%)</td>
@@ -152,7 +152,7 @@
   <tr>
     <td>3</td>
     <td><a href="#">Assignments</a></td>
-    <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+    <td>18% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
     <td> 9</td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>
@@ -163,7 +163,7 @@
   <tr>
     <td>4</td>
     <td><a href="#">Revision</a></td>
-    <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+    <td>21% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
     <td> 2</td>
     <td>40 (40%)</td>
     <td>60 (60%)</td>
@@ -174,7 +174,7 @@
   <tr>
     <td>5</td>
     <td><a href="#">Resits and resubmissions</a></td>
-    <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+    <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
     <td> 0</td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>

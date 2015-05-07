@@ -152,7 +152,7 @@
 <tr>
   <td>3</td>
 <td><a href="#">Disabled students</a></td>
-  <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td>10% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
   <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
   <td>10 (25%)</td>
   <td>30 (75%)</td>

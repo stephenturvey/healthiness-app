@@ -152,7 +152,7 @@
   <tr>
     <td>3</td>
     <td><a href="#">Referencing guidelines</a></td>
-    <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+    <td>10% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
     <td> 9</td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>
@@ -185,7 +185,7 @@
   <tr>
     <td>6</td>
     <td><a href="#">Core skills</a></td>
-    <td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+    <td>16% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
     <td> 13</td>
     <td>40 (40%)</td>
     <td>60 (60%)</td>
@@ -196,7 +196,7 @@
   <tr>
     <td>7</td>
     <td><a href="#">Job hunting</a></td>
-    <td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+    <td>22% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
     <td> 5</td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>
@@ -218,7 +218,7 @@
   <tr>
     <td>9</td>
     <td><a href="#">Careers service</a></td>
-    <td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+    <td>26% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
     <td> 2</td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>
@@ -229,7 +229,7 @@
   <tr>
     <td>10</td>
     <td><a href="#">Ongoing skills</a></td>
-    <td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+    <td>32% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
     <td> 0</td>
     <td>40 (40%)</td>
     <td>60 (60%)</td>

@@ -614,6 +614,8 @@ p.active-users em {
 	text-decoration:none;
 }
 
+#ou-content ul.ou-tabs li:first-child a {border-left:0;}
+
 #ou-content ul.ou-tabs li a:hover {
 	background: #a6d0ff;
 	text-decoration:underline;
