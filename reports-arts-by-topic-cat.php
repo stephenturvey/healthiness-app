@@ -176,7 +176,7 @@
 <tr>
 <td>4</td>
 <td><a href="#">Your module results</a></td>
-<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td>26% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>

@@ -176,7 +176,7 @@
 <tr>
 <td>4</td>
 <td><a href="#">Caring responsibilities, pregnancy and your studies</a></td>
-<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
@@ -187,7 +187,7 @@
 <tr>
 <td>5</td>
 <td><a href="#">What if I can't attend my exam?</a></td>
-<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+<td>31% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
@@ -198,7 +198,7 @@
 <tr>
 <td>6</td>
 <td><a href="#">Special circumstances - exams or EMAs</a></td>
-<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
+<td>32% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 17</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
@@ -209,7 +209,7 @@
 <tr>
 <td>7</td>
 <td><a href="#">Exam techniques</a></td>
-<td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td>35% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 10</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
@@ -220,7 +220,7 @@
 <tr>
 <td>8</td>
 <td><a href="#">Getting ready for your exam</a></td>
-<td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
+<td>40% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 1</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
@@ -231,7 +231,7 @@
 <tr>
 <td>9</td>
 <td><a href="#">Taking your exam at a different venue</a></td>
-<td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+<td>41% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 3</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
@@ -242,7 +242,7 @@
 <tr>
 <td>10</td>
 <td><a href="#">Key dates for exams</a></td>
-<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+<td>43% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
 <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>

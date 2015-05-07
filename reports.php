@@ -134,7 +134,7 @@
 <tr>
   <td>3</td>
   <td><a href="#">Completing your studies</a></td>
-  <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td>10% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
   <td>10 (25%)</td>
   <td>30 (75%)</td>
   <td> 9</td>
@@ -222,7 +222,7 @@
 <tr>
   <td>11</td>
   <td><a href="#">Policies and complaints</a></td>
-  <td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+  <td>27% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
   <td>10 (25%)</td>
   <td>30 (75%)</td>
   <td> 1</td>
@@ -233,7 +233,7 @@
 <tr>
   <td>12</td>
   <td><a href="#">Study skills</a></td>
-  <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td>32% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
   <td>40 (40%)</td>
   <td>60 (60%)</td>
   <td> 3</td>
