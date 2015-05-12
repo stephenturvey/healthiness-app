@@ -9,7 +9,7 @@
 
 </head>
 
-<body class="">
+<body class="home">
 
 <div id="ou-org">
 
@@ -222,7 +222,7 @@
 
 <span class="positive fa-stack fa-lg">
   <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i>
+  <i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i>
 </span>
 
 <h2 class="feedback-list-title"><a href="#">Enrolment help</a></h2>

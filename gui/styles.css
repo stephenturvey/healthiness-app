@@ -889,13 +889,20 @@ a.tooltip:hover span {
 =========================
 */
 
+body.feedback #ou-region1 {width:100%;}
+
+.feedback-list {width:70%;}
+
+body.home .feedback-list {width:100%;}
 
 .feedback-list .feedback-list-item {
 	position:relative;
 	padding:10px 0 0 50px;
 	margin-bottom:20px;	
-	/*border-bottom:1px solid #eee;*/
+	border-bottom:1px solid #eee;
 }
+
+body.home .feedback-list .feedback-list-item {border-bottom:none;}
 
 .feedback-list span.fa-stack {
 	position:absolute;
@@ -907,18 +914,48 @@ a.tooltip:hover span {
 .feedback-list span.positive i.fa-circle {color:#539d3c;}
 .feedback-list span.bug i.fa-circle {color:#880088;}
 
-.feedback-list h2.feedback-list-title,
+.feedback-list h2.feedback-list-title {
+	font-size:1.2em;
+	font-weight:bold;
+	margin:0 0 15px 0;
+}
+
 #ou-region2 .feedback-list h2.feedback-list-title {
 	font-size:1em;
-	font-weight:bold;
 	margin:0 0 10px 0;
 }
 
+.feedback-list ul.feedback-list-details {
+	margin:0 0 20px 0;	
+	color:#000;
+	line-height:150%;
+}
+
+.feedback-list ul.feedback-list-details li {
+	display:inline;
+	margin-right:10px;
+}
+
+.feedback-list ul.feedback-list-details li a,
 .feedback-list .feedback-list-title a {text-decoration:none;}
+
+.feedback-list .feedback-list-question {
+	margin:0 0 8px 0;
+	color:#666;
+}
+
+.feedback-list .feedback-list-wrap {
+	border-left: 1px solid #ddd; 
+	padding-left:20px; 
+	margin:0 0 20px 0;
+}
 
 .feedback-list .feedback-list-more {margin-top:-5px;}
 
+.feedback-list .feedback-list-more a {text-decoration:none;}
+
 a.no-underline {text-decoration:none;}
+
 
 
 

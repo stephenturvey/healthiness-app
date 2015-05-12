@@ -12,6 +12,15 @@ $('a.ou-mobile-menu-toggle').toggleClass('closed open')
 	return false;
 })
 
+// SHOW/HIDE FEEDBACK
+
+$(".feedback-list-toggle").hide(); 
+
+$(".feedback-list-trigger").click(function(){
+$(this).parent().prev(".feedback-list-toggle").slideToggle();
+	return false;
+})
+
 
 // FILTER NAV OLD VERSION
 // this adds/removes a class to the filter nav on click for mobile users
