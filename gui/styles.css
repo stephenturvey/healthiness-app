@@ -871,7 +871,6 @@ a.tooltip span {
 	font-size:13px;
 	font-weight:normal;
 	border-radius:4px;
-    /*box-shadow: 5px 5px 8px #CCC;*/
 }
 
 a.tooltip:hover span {
@@ -970,6 +969,29 @@ hr {margin: 20px 0;}
 p.active-users {margin-top:22px;}
 
 #ou-content ul.ou-tabs li a.ou-selected:after {content:none;}
+
+a.tooltip span {
+    z-index:10;
+	display:none; 
+	padding:15px 20px;
+    margin-top:20px; 
+	margin-left:0;
+	line-height:150%;
+    width:320px; 
+	box-sizing:border-box;
+	font-size:13px;
+	font-weight:normal;
+	border-radius:0;
+}
+
+a.tooltip:hover span {
+    display:inline; 
+	position:absolute; 
+	color:#111;
+    border:1px solid #DCA; 
+	background:#fffAF0;
+}
+
 
 
 } /* end media query */
