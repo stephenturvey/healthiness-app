@@ -116,17 +116,17 @@
 </tr>
 <tr>
 <td>4</td>
-<td><a href="#">DSA eligibility</a></td>
+<td><a href="reports-article-info.php">Estimating your module results*</a></td>
 <td>15% </td>
-<td><span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
-<td>0</td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td><a href="#">17</a></td>
 </tr>
 <tr>
 <td>5</td>
 <td><a href="#">Enrolment help</a></td>
 <td>15% </td>
 <td><span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
-<td><a href="#">17</a></td>
+<td><a href="#">12</a></td>
 </tr>
 <tr>
 <td>6</td>

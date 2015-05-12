@@ -131,9 +131,9 @@
 <tr>
 <td>1</td>
 <td><a href="reports-article-info.php">Estimating your module results*</a></td>
-<td>7% </td>
+<td>15% </td>
 <td><span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
-<td><a href="#">13</a></td>
+<td><a href="#">17</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
 <td>12,093</td>
@@ -143,9 +143,9 @@
 <tr>
 <td>2</td>
 <td><a href="#">Reflecting on your module results</a></td>
-<td>9% </td>
+<td>19% </td>
 <td><span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
-<td><a href="#">5</a></td>
+<td><a href="#">11</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
 <td>5,294</td>

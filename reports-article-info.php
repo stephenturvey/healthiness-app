@@ -94,11 +94,11 @@
 <tbody>
 <tr>
 <th class="feedback">Health</th>
-<td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
 </tr>
 <tr>
 <th>Feedback</th>
-<td><a href="#feedback">13</a></td>
+<td><a href="#feedback">17</a></td>
 </tr>
 <tr>
 <th>Yeses</th>
