@@ -112,26 +112,15 @@
 
 
 <div class="ou-table-wrap">
-<table>
-<thead>
-<tr>
-<th class="row-number"><a href="#" class="tooltip"><i class="fa fa-info-circle colour5"></i><span>You are looking at <strong>all articles</strong> in the Help Centre</span></a></th>
-<th class="page-title">Title</th>
-<th class="health">Health <span class="page-title"><img src="img/icon-sort.png" alt=""></span></th>
-<th class="feedback">Feedback</th>
-<th class="feedback">Yeses</th>
-<th class="feedback">Nos</th>
-<th class="feedback">Pageviews</th>
-<th class="feedback">Unique</th>
-<th class="feedback">Exit to contacts</th>
-</tr>
-</thead>
+<table summary="All articles in the Help Centre">
+<?php include('inc/table-thead.php'); ?>
 <tbody>
 <tr>
 <td>1</td>
 <td><a href="#">Your contacts</a></td>
-<td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
+<td>12% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+<td><a href="#">13</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
 <td>12,093</td>
@@ -141,8 +130,9 @@
 <tr>
 <td>2</td>
 <td><a href="#">Funding your studies</a></td>
-<td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
+<td>12% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+<td><a href="#">5</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
 <td>5,294</td>
@@ -152,8 +142,9 @@
 <tr>
   <td>3</td>
 <td><a href="#">Disabled students</a></td>
-  <td>10% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
-  <td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+  <td>13% </td>
+  <td><span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td><a href="#">9</a></td>
   <td>10 (25%)</td>
   <td>30 (75%)</td>
   <td>18,994</td>
@@ -163,8 +154,9 @@
 <tr>
 <td>4</td>
 <td><a href="#">DSA eligibility</a></td>
-<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
+<td>15% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td><a href="#">2</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
 <td>10,048</td>
@@ -174,8 +166,9 @@
 <tr>
 <td>5</td>
 <td><a href="#">Enrolment help</a></td>
-<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
+<td>16% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+<td><a href="#">0</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
 <td>3,228</td>
@@ -185,8 +178,9 @@
 <tr>
 <td>6</td>
 <td><a href="#">Exam arrangements for disabled students</a></td>
-<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 17</a></td>
+<td>19% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
+<td><a href="#">17</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
 <td>7,739</td>
@@ -196,8 +190,9 @@
 <tr>
 <td>7</td>
 <td><a href="#">CMA and TMA</a></td>
-<td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 10</a></td>
+<td>19% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td><a href="#">10</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
 <td>9,025</td>
@@ -207,8 +202,9 @@
 <tr>
 <td>8</td>
 <td><a href="#">Notetaking techniques</a></td>
-<td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 1</a></td>
+<td>21% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
+<td><a href="#">1</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
 <td>14,477</td>
@@ -218,8 +214,9 @@
 <tr>
 <td>9</td>
 <td><a href="#">Changing your modules q3</a></td>
-<td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 3</a></td>
+<td>24% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+<td><a href="#">3</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
 <td>10,345</td>
@@ -229,8 +226,9 @@
 <tr>
 <td>10</td>
 <td><a href="#">Choosing your modules</a></td>
-<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+<td>24% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+<td><a href="#">9</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
 <td>9,437</td>

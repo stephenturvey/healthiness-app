@@ -94,28 +94,17 @@
 
 
 <div class="ou-table-wrap">
-<table>
-<thead>
-<tr>
-<th class="row-number"><a href="#" class="tooltip"><i class="fa fa-info-circle colour5"></i><span>You are looking at <strong>all topics</strong> in the Help Centre</span></a></th>
-<th class="page-title">Title</th>
-<th class="health">Health <span class="page-title"> <img src="img/icon-sort.png" alt=""></span></th>
-<th class="feedback">Yeses</th>
-<th class="feedback">Nos</th>
-<th class="feedback">Feedback</th>
-<th class="feedback">Pageviews</th>
-<th class="feedback">Unique</th>
-<th class="feedback">Exit to contacts</th>
-</tr>
-</thead>
+<table summary="All topics in the Help Centre">
+<?php include('inc/table-thead.php'); ?>
 <tbody>
 <tr>
 <td>1</td>
 <td><a href="#">Computing help</a></td>
-<td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+<td>7% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+<td><a href="#"> 13</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
-<td> 13</td>
 <td>12,093</td>
 <td>10,740</td>
 <td>40%</td>
@@ -123,10 +112,11 @@
 <tr>
 <td>2</td>
 <td><a href="#">Library</a></td>
-<td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+<td>9% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+<td><a href="#"> 5</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
-<td> 5</td>
 <td>5,294</td>
 <td>3,238</td>
 <td>32%</td>
@@ -134,10 +124,11 @@
 <tr>
   <td>3</td>
   <td><a href="#">Completing your studies</a></td>
-  <td>10% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td>10% </td>
+  <td><span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td><a href="#"> 9</a></td>
   <td>10 (25%)</td>
   <td>30 (75%)</td>
-  <td> 9</td>
   <td>18,994</td>
   <td>15,583</td>
   <td>51%</td>
@@ -145,10 +136,11 @@
 <tr>
 <td>4</td>
 <td><a href="reports-cats-by-topic.php">Assessment and exams*</a></td>
-<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td>11% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td><a href="#"> 2</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
-<td> 2</td>
 <td>10,048</td>
 <td>7,230</td>
 <td>11%</td>
@@ -156,10 +148,11 @@
 <tr>
 <td>5</td>
 <td><a href="#">Services for disabled students</a></td>
-<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+<td>15% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+<td><a href="#"> 0</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
-<td> 0</td>
 <td>3,228</td>
 <td>2,937</td>
 <td>25%</td>
@@ -167,10 +160,11 @@
 <tr>
 <td>6</td>
 <td><a href="#">Planning, enrolling and paying for studies</a></td>
-<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
+<td>15% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
+<td><a href="#"> 17</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
-<td> 17</td>
 <td>7,739</td>
 <td>5,053</td>
 <td>8%</td>
@@ -178,10 +172,11 @@
 <tr>
 <td>7</td>
 <td><a href="#">Tutorials and residential schools</a></td>
-<td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td>17% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td><a href="#"> 10</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
-<td> 10</td>
 <td>9,025</td>
 <td>7,259</td>
 <td>35%</td>
@@ -189,10 +184,11 @@
 <tr>
 <td>8</td>
 <td><a href="#">Changes and problems while you study</a></td>
-<td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
+<td>21% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
+<td><a href="#"> 1</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
-<td> 1</td>
 <td>14,477</td>
 <td>11,885</td>
 <td>12%</td>
@@ -200,10 +196,11 @@
 <tr>
 <td>9</td>
 <td><a href="#">Your career</a></td>
-<td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+<td>23% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+<td><a href="#"> 3</a></td>
 <td>10 (25%)</td>
 <td>30 (75%)</td>
-<td> 3</td>
 <td>10,345</td>
 <td>8,601</td>
 <td>13%</td>
@@ -211,10 +208,11 @@
 <tr>
 <td>10</td>
 <td><a href="#">Support and resources while you study</a></td>
-<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+<td>24% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+<td><a href="#"> 9</a></td>
 <td>40 (40%)</td>
 <td>60 (60%)</td>
-<td> 9</td>
 <td>9,437</td>
 <td>8,116</td>
 <td>41%</td>
@@ -222,10 +220,11 @@
 <tr>
   <td>11</td>
   <td><a href="#">Policies and complaints</a></td>
-  <td>27% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+  <td>27% </td>
+  <td><span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+  <td><a href="#"> 1</a></td>
   <td>10 (25%)</td>
   <td>30 (75%)</td>
-  <td> 1</td>
   <td>11,486</td>
   <td>8,641</td>
   <td>29%</td>
@@ -233,10 +232,11 @@
 <tr>
   <td>12</td>
   <td><a href="#">Study skills</a></td>
-  <td>32% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td>32% </td>
+  <td><span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+  <td><a href="#"> 3</a></td>
   <td>40 (40%)</td>
   <td>60 (60%)</td>
-  <td> 3</td>
   <td>4,803</td>
   <td>4,006</td>
   <td>15%</td>

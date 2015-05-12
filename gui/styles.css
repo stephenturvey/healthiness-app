@@ -211,6 +211,8 @@ h2 {
 	margin:0 0 15px 0;
 }
 
+#ou-region2 h2 {font-size:1.5em;}
+
 h3 {font-size: 1.5em;}
 
 h4 {font-size: 1.3em;}
@@ -240,7 +242,31 @@ dl dt {
 
 dl dd {margin-bottom:15px;}
 
+ul.ou-standard-list {
+	margin:0 0 15px 25px;
+	list-style-type: none;
+	padding: 0;
+}
 
+ul.ou-standard-list ul {margin:0 0 0 25px;}
+
+ul.ou-standard-list li {
+	margin-bottom: 5px;
+	position: relative;
+	z-index:100; /* so items can float alongside happily */
+	padding-left: 20px;
+	line-height:1.6em;
+}
+
+ul.ou-standard-list li:before {
+	content: "\2022";
+	color: #0b55a8;
+	font-size: 1.8em;
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 90%;
+}
 
 /* Tables */
 
@@ -281,6 +307,8 @@ caption {
 	vertical-align: top;
 }
 
+td {text-align:right;}
+
 table tr:nth-child(even) {background: #e7eff7;}
 
 table caption {
@@ -293,11 +321,17 @@ table caption {
 	border-bottom: 1px solid #a6d0ff;
 }
 
+body.reports table th.page-title {width:12em;}
+
 table th.row-number {width:1em;}
 
 table th.health {min-width:6em;}
 
+table th.total {width:6em;}
+
 tr:last-child td {border-bottom: 0;}
+
+table tr td:nth-child(2) {text-align:left;}
 
 /* With headings on left */
 
@@ -365,13 +399,34 @@ p.active-users em {
 	background:#000;
 }
 
-.hc-health-progress .hc-45 {
-	width:45%;
+.hc-health-progress .hc-bar {
 	height:5px;
 	display:inline-block;
 	float:left;
 	background:#6ABF4F;
 }
+
+.hc-5 {width:5%;}
+.hc-10 {width:10%;}
+.hc-15 {width:15%;}
+.hc-20 {width:20%;}
+.hc-25 {width:25%;}
+.hc-30 {width:30%;}
+.hc-35 {width:35%;}
+.hc-40 {width:40%;}
+.hc-45 {width:45%;}
+.hc-50 {width:50%;}
+.hc-55 {width:55%;}
+.hc-60 {width:60%;}
+.hc-65 {width:65%;}
+.hc-70 {width:70%;}
+.hc-75 {width:75%;}
+.hc-80 {width:80%;}
+.hc-85 {width:85%;}
+.hc-90 {width:90%;}
+.hc-95 {width:95%;}
+.hc-100 {width:100%;}
+
 
 
 /*
@@ -677,13 +732,11 @@ p.active-users em {
 span.down {
 	color:#B52E25;
 	margin-left:10px;
-	float:right;
 }
 
 span.up {
 	color:#539D3C; 
 	margin-left:10px;
-	float:right;
 }
 
 body.article-info span.down,
@@ -814,7 +867,7 @@ a.tooltip span {
     margin-top:20px; 
 	margin-left:-20px;
 	line-height:150%;
-    width:300px; 
+    width:auto; 
 	font-size:13px;
 	font-weight:normal;
 	border-radius:4px;
@@ -842,7 +895,7 @@ a.tooltip:hover span {
 	position:relative;
 	padding:10px 0 0 50px;
 	margin-bottom:20px;	
-	border-bottom:1px solid #eee;
+	/*border-bottom:1px solid #eee;*/
 }
 
 .feedback-list span.fa-stack {
@@ -855,7 +908,8 @@ a.tooltip:hover span {
 .feedback-list span.positive i.fa-circle {color:#539d3c;}
 .feedback-list span.bug i.fa-circle {color:#880088;}
 
-.feedback-list h2.feedback-list-title {
+.feedback-list h2.feedback-list-title,
+#ou-region2 .feedback-list h2.feedback-list-title {
 	font-size:1em;
 	font-weight:bold;
 	margin:0 0 10px 0;
@@ -890,6 +944,8 @@ a.no-underline {text-decoration:none;}
 #ou-region1,
 #ou-region2 {width:100%;}
 
+#ou-region1 {margin-bottom:20px;}
+
 
 } /* end media query */
 
@@ -909,10 +965,11 @@ h5 {font-size: 1.1em; }
 
 h6 {font-size: 1em;}
 
-
 hr {margin: 20px 0;}
 
 p.active-users {margin-top:22px;}
+
+#ou-content ul.ou-tabs li a.ou-selected:after {content:none;}
 
 
 } /* end media query */

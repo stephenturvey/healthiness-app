@@ -90,7 +90,7 @@
 
 
 <div class="ou-table-wrap">
-<table class="ou-table-headings-left">
+<table class="ou-table-headings-left" summary="Individual article statistics">
 <tbody>
 <tr>
 <th class="feedback">Health</th>
@@ -153,9 +153,7 @@
 </table>
 </div>
 
-
-
-
+<hr>
 
 <ul class="ou-icon-links">
 

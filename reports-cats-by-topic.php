@@ -112,26 +112,15 @@
 
 
 <div class="ou-table-wrap">
-<table>
-<thead>
-<tr>
-<th class="row-number"><a href="#" class="tooltip"><i class="fa fa-info-circle colour5"></i><span>You are looking at <strong>categories</strong> in the <strong>Assessments and exams</strong> topic</span></a></th>
-<th class="page-title">Title</th>
-<th class="health">Health <span class="page-title"><img src="img/icon-sort.png" alt=""></span></th>
-<th class="feedback">Feedback</th>
-<th class="feedback">Yeses</th>
-<th class="feedback">Nos</th>
-<th class="feedback">Pageviews</th>
-<th class="feedback">Unique</th>
-<th class="feedback">Exit to contacts</th>
-</tr>
-</thead>
+<table summary="Categories in the Assessments and exams topic">
+<?php include('inc/table-thead.php'); ?>
 <tbody>
   <tr>
     <td>1</td>
     <td><a href="#">Exams and EMAs</a></td>
-    <td>10% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
-    <td> 13</td>
+    <td>10% </td>
+    <td><span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+    <td><a href="#"> 22</a></td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>
     <td>12,093</td>
@@ -141,8 +130,9 @@
   <tr>
     <td>2</td>
     <td><a href="reports-arts-by-topic-cat.php">Results*</a></td>
-    <td>12% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
-    <td> 5</td>
+    <td>12% </td>
+    <td><span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+    <td><a href="#"> 15</a></td>
     <td>40 (40%)</td>
     <td>60 (60%)</td>
     <td>5,294</td>
@@ -152,8 +142,9 @@
   <tr>
     <td>3</td>
     <td><a href="#">Assignments</a></td>
-    <td>18% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
-    <td> 9</td>
+    <td>18% </td>
+    <td><span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
+    <td><a href="#"> 54</a></td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>
     <td>18,994</td>
@@ -163,8 +154,9 @@
   <tr>
     <td>4</td>
     <td><a href="#">Revision</a></td>
-    <td>21% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
-    <td> 2</td>
+    <td>21% </td>
+    <td><span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+    <td><a href="#"> 17</a></td>
     <td>40 (40%)</td>
     <td>60 (60%)</td>
     <td>10,048</td>
@@ -174,8 +166,9 @@
   <tr>
     <td>5</td>
     <td><a href="#">Resits and resubmissions</a></td>
-    <td>24% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
-    <td> 0</td>
+    <td>24% </td>
+    <td><span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
+    <td><a href="#"> 3</a></td>
     <td>10 (25%)</td>
     <td>30 (75%)</td>
     <td>3,228</td>

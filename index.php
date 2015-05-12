@@ -74,36 +74,21 @@
 
 <div class="hc-health">
 <p>The Help Centre is currently <strong>45%</strong> healthy <a href="#" class="tooltip"><i class="fa fa-info-circle colour12"></i><span>This is the average healthiness of all HC articles</span></a></p>
-<div class="hc-health-progress ou-grid"><span class="hc-45"></span></div>
+<div class="hc-health-progress ou-grid"><span class="hc-bar hc-45"></span></div>
 </div>
 
 <hr>
 
 <h2>All articles in the last 30 days</h2>
-<!--
-<div class="filters">
-<ul class="tabs">
-
-<li>
-<a href="#" class="selected">Last 30 days</a>
-<ul class="sub">
-<li><a href="#">Last 60 days</a></li>
-<li><a href="#">All time</a></li>
-<li><a href="#">Specify dates</a></li>
-</ul>
-</li>
-
-</ul>
-</div>
--->
 
 <div class="ou-table-wrap">
-<table>
+<table summary="Performance of all Help Centre articles in the last 30 days">
 <thead>
 <tr>
 <th class="row-number"></th>
 <th class="page-title">Title</th>
 <th class="health">Health <img src="img/icon-sort.png" alt=""></th>
+<th class="difference">% diff.</th>
 <th class="feedback">Feedback</th>
 </tr>
 </thead>
@@ -111,62 +96,72 @@
 <tr>
 <td>1</td>
 <td><a href="#">Your contacts</a></td>
-<td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 13</a></td>
+<td>7% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
+<td><a href="#"><!--<i class="fa fa-comment-o"></i> -->13</a></td>
 </tr>
 <tr>
 <td>2</td>
 <td><a href="#">Funding your studies</a></td>
-<td>9% <span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 5</a></td>
+<td>9% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 1%</span></td>
+<td><a href="#">5</a></td>
 </tr>
 <tr>
 <td>3</td>
 <td><a href="#">Disabled students</a></td>
-<td>11% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 2</a></td>
+<td>11% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td><a href="#">2</a></td>
 </tr>
 <tr>
 <td>4</td>
 <td><a href="#">DSA eligibility</a></td>
-<td>15% <span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 0</a></td>
+<td>15% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 5%</span></td>
+<td>0</td>
 </tr>
 <tr>
 <td>5</td>
 <td><a href="#">Enrolment help</a></td>
-<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 17</a></td>
+<td>15% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 4%</span></td>
+<td><a href="#">17</a></td>
 </tr>
 <tr>
 <td>6</td>
 <td><a href="#">Exam arrangements for disabled students</a></td>
-<td>17% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 10</a></td>
+<td>17% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td><a href="#">10</a></td>
 </tr>
 <tr>
 <td>7</td>
 <td><a href="#">Changing your modules q3</a></td>
-<td>21% <span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 1</a></td>
+<td>21% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 6%</span></td>
+<td><a href="#">1</a></td>
 </tr>
 <tr>
 <td>8</td>
 <td><a href="#">Choosing your modules</a></td>
-<td>23% <span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 3</a></td>
+<td>23% </td>
+<td><span class="down"><img src="img/icon-down.png" alt=""> 5%</span></td>
+<td><a href="#">3</a></td>
 </tr>
 <tr>
 <td>9</td>
 <td><a href="#">CMA and TMA</a></td>
-<td>24% <span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 9</a></td>
+<td>24% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 9%</span></td>
+<td><a href="#">9</a></td>
 </tr>
 <tr>
 <td>10</td>
 <td><a href="#">Notetaking techniques</a></td>
-<td>28% <span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
-<td><a href="#"><i class="fa fa-comment-o"></i> 20</a></td>
+<td>28% </td>
+<td><span class="up"><img src="img/icon-up.png" alt=""> 2%</span></td>
+<td><a href="#">20</a></td>
 </tr>
 </tbody>
 </table>
@@ -203,24 +198,6 @@
 
 
 <div id="ou-region2">
-
-<!--
-<div class="filters">
-<ul class="tabs">
-
-<li>
-<a href="#" class="selected">All feedback</a>
-<ul class="sub">
-<li><a href="#">Positive</a></li>
-<li><a href="#">Negative</a></li>
-<li><a href="#">Bug reports</a></li>
-<li><a href="#">Surveys</a></li>
-</ul>
-</li>
-
-</ul>
-</div>
--->
 
 <h2>Recent feedback</h2>
 
@@ -271,14 +248,15 @@
 
 </div>
 
-<!--<p><i class="fa fa-caret-right"></i> <a href="#" class="no-underline">See all feedback</a></p>-->
+<p><i class="fa fa-caret-right"></i> <a href="feedback.php" class="no-underline">All feedback</a></p>
 
 </div>
 
+<hr>
 
 <h2>Popular searches</h2>
 
-<ul>
+<ul class="ou-standard-list">
 <li>referencing</li>
 <li>defer</li>
 <li>special circumstances</li>
@@ -286,7 +264,7 @@
 <li>PT39</li>
 </ul>
 
-
+<p><i class="fa fa-caret-right"></i> <a href="reports-searches.php" class="no-underline">All searches</a></p>
 
 
 </div> <!-- end ou-region2 -->

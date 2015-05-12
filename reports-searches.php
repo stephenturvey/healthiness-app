@@ -93,12 +93,12 @@
 </div>
 
 <div class="ou-table-wrap">
-<table>
+<table summary="Popular search terms from the Help Centre quick find">
 <thead>
 <tr>
   <th class="row-number"></th>
-  <th class="page-title">Search term</th>
-<th class="feedback">Total <span class="page-title"><img src="img/icon-sort.png" alt=""></span></th>
+  <th class="search-term">Search term</th>
+<th class="total">Total <span class="page-title"><img src="img/icon-sort.png" alt=""></span></th>
 </tr>
 </thead>
 <tbody>

@@ -104,12 +104,12 @@
 <th class="row-number"></th>
 <th class="page-title">Title</th>
 <th class="health">Health <span class="page-title"> <img src="img/icon-sort.png" alt=""></span></th>
-<th class="feedback">Yeses</th>
+<th class="yes">Yes</th>
 <th class="feedback">Nos</th>
 <th class="feedback">Feedback</th>
-<th class="feedback">Pageviews</th>
-<th class="feedback">Unique</th>
-<th class="feedback">Exit to contacts</th>
+<th class="pageviews">Pageviews</th>
+<th class="unique">Unique</th>
+<th class="exit-contacts">Exit to contacts</th>
 </tr>
 </thead>
 <tbody>
