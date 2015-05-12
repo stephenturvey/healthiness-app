@@ -986,7 +986,8 @@ a.tooltip span {
 
 a.tooltip:hover span {
     display:inline; 
-	position:absolute; 
+	position:absolute;
+	left:0;
 	color:#111;
     border:1px solid #DCA; 
 	background:#fffAF0;
