@@ -17,9 +17,20 @@ $('a.ou-mobile-menu-toggle').toggleClass('closed open')
 $(".feedback-list-toggle").hide(); 
 
 $(".feedback-list-trigger").click(function(){
+
+var $self = $(this);
+
+$(this).toggleClass("arrow-down arrow-up");
+
+if ($self.text() == "Full details")
+	   $self.text("Less details");
+else
+        $self.text("Full details");
+
 $(this).parent().prev(".feedback-list-toggle").slideToggle();
 	return false;
 })
+
 
 
 // FILTER NAV OLD VERSION
