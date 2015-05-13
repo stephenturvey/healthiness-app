@@ -461,7 +461,7 @@ p.active-users em {
 	display: block;
 	text-decoration: none;
 	margin: 0;
-	padding: 13px 30px 13px 15px;
+	padding: 11px 30px 11px 15px;
 	position: relative;
 	color: #222;
 	line-height:130%;
@@ -554,7 +554,7 @@ p.active-users em {
 .filters ul.tabs li ul.sub li a {
 	float: none;
 	margin: 0;
-	padding: 10px 15px;
+	padding: 8px 15px;
 	color: #fff;
 	border-radius:0;
 }
