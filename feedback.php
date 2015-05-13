@@ -71,14 +71,21 @@
 
 <ul class="ou-tabs">
 <li><a href="feedback.php" class="ou-selected">All feedback</a></li>
-<li><a href="#">Positive</a></li>
-<li><a href="#">Negative</a></li>
+<li><a href="#">Widget</a></li>
+<li><a href="#">Survey</a></li>
 <li><a href="#">Bug reports</a></li>
-<li><a href="#">Surveys</a></li>
 </ul>
 
 <div class="filters">
 <ul class="tabs">
+
+<li>
+<a href="#" class="selected">All types</a>
+<ul class="sub">
+<li><a href="#">Positive</a></li>
+<li><a href="#">Negative</a></li>
+</ul>
+</li>
 
 <li>
 <a href="#" class="selected">All tags</a>
@@ -164,7 +171,7 @@
 
 </div> <!-- end feedback-list-toggle -->
 
-<p class="feedback-list-more"><a href="#" class="feedback-list-trigger">Full details <i class="fa fa-caret-down"></i></a></p>
+<p class="feedback-list-more"><a href="#" class="feedback-list-trigger arrow-down">Full details</a></p>
 
 </div>
 
@@ -180,7 +187,7 @@
 
 <ul class="feedback-list-details">
 <li><i class="fa fa-user colour0"></i> Jennifer Jones (JJ862304)</li>
-<li><i class="fa fa-briefcase colour0"></i> Staff</li>
+<li><i class="fa fa-shield colour0"></i> Staff</li>
 <li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 1 hour ago <span>Permalink</span></a></li>
 <li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> Urgent <span>Flagged as urgent by Stephen Turvey</span></a></li>
 <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Assigned to Nick Golding <span>Assigned to Nick by Guy Carberry</span></a></li>
@@ -215,7 +222,7 @@
 
 </div> <!-- end feedback-list-toggle -->
 
-<p class="feedback-list-more"><a href="#" class="feedback-list-trigger">Full details <i class="fa fa-caret-down"></i></a></p>
+<p class="feedback-list-more"><a href="#" class="feedback-list-trigger arrow-down">Full details</a></p>
 
 </div>
 
@@ -265,7 +272,7 @@
 
 </div> <!-- end feedback-list-toggle -->
 
-<p class="feedback-list-more"><a href="#" class="feedback-list-trigger">Full details <i class="fa fa-caret-down"></i></a></p>
+<p class="feedback-list-more"><a href="#" class="feedback-list-trigger arrow-down">Full details</a></p>
 
 </div>
 
