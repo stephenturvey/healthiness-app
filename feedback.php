@@ -203,7 +203,7 @@
 <li><i class="fa fa-user colour0"></i> Jennifer Jones (JJ862304)</li>
 <li><i class="fa fa-shield colour0"></i> Staff</li>
 <li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 1 hour ago <span>Permalink</span></a></li>
-<li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> Urgent <span>Flagged as urgent by Stephen Turvey</span></a></li>
+<li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> Urgent <span>Tagged as urgent by Stephen Turvey</span></a></li>
 <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Assigned to Nick Golding <span>Assigned to Nick by Guy Carberry</span></a></li>
 </ul>
 
@@ -253,7 +253,7 @@
 <li><i class="fa fa-user colour0"></i> John Obinwake (JO317300)</li>
 <li><i class="fa fa-graduation-cap colour0"></i> Student</li>
 <li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 2 days ago <span>Permalink</span></a></li>
-<li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> In progress <span>Flagged as in progress by Steven Price</span></a></li>
+<li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> In progress <span>Tagged as in progress by Steven Price</span></a></li>
 <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Assigned to Steven Price <span>Assigned to Steven by James Nutt</span></a></li>
 </ul>
 
@@ -295,7 +295,7 @@
     <li><i class="fa fa-user colour0"></i> Alison Davis (AD3917305)</li>
     <li><i class="fa fa-graduation-cap colour0"></i> Student</li>
     <li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 2 days ago <span>Permalink</span></a></li>
-    <li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> No action <span>Flagged for no action by Dawn Allwood</span></a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> No action <span>Tagged as no action by Dawn Allwood</span></a></li>
     <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Unassigned</a></li>
   </ul>
   <div class="feedback-list-wrap">
