@@ -127,9 +127,9 @@
 
 <div class="feedback-list-item">
 
-<span class="negative fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i>
+<span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x colour5"></i>
+  <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
 </span>
 
 <h2 class="feedback-list-title">Choosing your modules <a href="#"><i class="fa fa-external-link"></i></a></h2>
@@ -174,15 +174,29 @@
 <p class="feedback-list-more"><a href="#" class="feedback-list-trigger arrow-down">Full details</a></p>
 
 </div>
+<div class="feedback-list-item"> <span class="negative fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i> </span>
+  <h2 class="feedback-list-title">Help Centre home <a href="#"><i class="fa fa-external-link"></i></a></h2>
+  <ul class="feedback-list-details">
+    <li><i class="fa fa-user colour0"></i> Kapil Dev (KD729102)</li>
+    <li><i class="fa fa-graduation-cap colour0"></i> Student</li>
+    <li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 39 minutes ago <span>Permalink</span></a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> Awaiting review</a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Unassigned</a></li>
+  </ul>
+  <div class="feedback-list-wrap">
+    <p class="feedback-list-desc">I have this message on my StudentHome page: "The University has agreed that this qualification is to be withdrawn and the final date that any student can qualify for it is 31 December 2017. You will need to ensure that you satisfy all the academic requirements for it by that date. If you do not think you will be able to complete your qualification by this date, see our advice and information." and yet your advice and information does not help with this issue. It doesnt inform me how/who to contact to see what can ne done about not being able to meet the deadline.</p>
+  </div>
+</div>
 
 
 
 <div class="feedback-list-item">
-
-<span class="positive fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i>
+  
+<span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x colour5"></i>
+  <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
 </span>
+
 <h2 class="feedback-list-title">Paying for your studies (England) <a href="#"><i class="fa fa-external-link"></i></a></h2>
 
 <ul class="feedback-list-details">
@@ -275,9 +289,32 @@
 <p class="feedback-list-more"><a href="#" class="feedback-list-trigger arrow-down">Full details</a></p>
 
 </div>
+<div class="feedback-list-item"> <span class="positive fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i></span>
+  <h2 class="feedback-list-title">Sitemap <a href="#"><i class="fa fa-external-link"></i></a></h2>
+  <ul class="feedback-list-details">
+    <li><i class="fa fa-user colour0"></i> Alison Davis (AD3917305)</li>
+    <li><i class="fa fa-graduation-cap colour0"></i> Student</li>
+    <li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 2 days ago <span>Permalink</span></a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> No action <span>Flagged for no action by Dawn Allwood</span></a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Unassigned</a></li>
+  </ul>
+  <div class="feedback-list-wrap">
+    <p class="feedback-list-desc">What a wonderful website. I have thoroughly enjoyed reading every page. Bravo!</p>
+  </div>
+</div>
 
 </div>
 
+
+<div class="ou-paged">
+  <ul>
+    <li><strong>1</strong></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+  </ul>
+  <p>Show: <strong>10</strong> - <a href="#">20</a> - <a href="#">50</a> - <a href="#">100</a></p>
+</div>
 
 
 

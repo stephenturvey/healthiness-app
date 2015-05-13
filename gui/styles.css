@@ -891,6 +891,7 @@ a.tooltip:hover span {
 
 body.feedback #ou-region1 {width:100%;}
 
+body.feedback .ou-paged,
 .feedback-list {width:70%;}
 
 body.home .feedback-list {width:100%;}
@@ -1003,7 +1004,9 @@ a.arrow-up:after {
 
 
 #ou-region1,
-#ou-region2 {width:100%;}
+#ou-region2,
+.feedback-list,
+body.feedback .ou-paged {width:100%;}
 
 #ou-region1 {margin-bottom:20px;}
 
