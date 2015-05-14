@@ -72,9 +72,16 @@
 
 <div id="ou-content" class="ou-content">
 
-<div class="hc-health">
-<p>The Help Centre is currently <strong>45%</strong> healthy <a href="#" class="tooltip"><i class="fa fa-info-circle colour12"></i><span>This is the average healthiness of all HC articles</span></a></p>
-<div class="hc-health-progress ou-grid"><span class="hc-bar hc-45"></span></div>
+
+
+<div class="box">
+<h2>Hi, Stephen</h2>
+<ul class="fa-ul">
+<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> Guy Carberry has tagged you in <a href="#">1 piece of feedback</a> <span style="color:#777;">(2 hours ago)</span></li>
+<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> It's time to review <a href="#">Funding your studies</a></li>
+<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> There are currently <a href="#">7 feedbacks</a> marked as 'Urgent'</li>
+<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> James Nutt has tagged you to the article <a href="#">Choosing your modules</a> <span style="color:#777;">(1 day ago)</span></li>
+</ul>
 </div>
 
 <hr>
@@ -198,6 +205,11 @@
 
 
 <div id="ou-region2">
+
+<div class="hc-health">
+<p>The Help Centre is <strong>45%</strong> healthy <a href="#" class="tooltip"><i class="fa fa-info-circle colour12"></i><span>This is the average healthiness of all HC articles</span></a></p>
+<div class="hc-health-progress ou-grid"><span class="hc-bar" style="width:45%;"></span></div>
+</div>
 
 <h2>Recent feedback</h2>
 
