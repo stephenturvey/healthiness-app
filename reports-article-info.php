@@ -69,7 +69,7 @@
 
 <div id="ou-content" class="ou-content">
 
-<h2>Estimating your module results <a href="#"><i class="fa fa-external-link"></i></a></h2>
+<h2>Submitting an EMA <a href="http://www2.open.ac.uk/students/help/submitting-an-ema"><i class="fa fa-external-link"></i></a></h2>
 
 <hr>
 
@@ -94,11 +94,11 @@
 <tbody>
 <tr>
 <th class="feedback">Health</th>
-<td>15% <span class="down"><img src="img/icon-down.png" alt=""> 1%</span></td>
+<td>7% <span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
 </tr>
 <tr>
 <th>Feedback</th>
-<td><a href="#feedback">17</a></td>
+<td><a href="feedback.php">13</a></td>
 </tr>
 <tr>
 <th>Yeses</th>

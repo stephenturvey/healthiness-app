@@ -75,12 +75,11 @@
 
 
 <div class="box">
-<h2>Hi, Stephen</h2>
+<h2>Hi, Guy</h2>
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> Guy Carberry has tagged you in <a href="#">1   feedback</a> <span style="color:#777;">(2 hours ago)</span></li>
-<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> It's time to review <a href="#">Funding your studies</a></li>
-<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> There are currently <a href="#">7 feedbacks</a> marked as 'Urgent'</li>
-<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> James Nutt has tagged you to the article <a href="#">Choosing your modules</a> <span style="color:#777;">(1 day ago)</span></li>
+<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> Dawn Bird has tagged you in <a href="feedback.php">1   feedback</a> <span style="color:#777;">(2 hours ago)</span></li>
+<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> It's time to review <a href="reports-article-info.php">Submitting an EMA</a></li>
+<li><i class="fa-li fa fa-arrow-circle-right colour12"></i> There are currently <a href="feedback.php">7 feedbacks</a> marked as 'Urgent'</li>
 </ul>
 </div>
 
@@ -102,10 +101,10 @@
 <tbody>
 <tr>
 <td>1</td>
-<td><a href="#">Your contacts</a></td>
+<td><a href="reports-article-info.php">Submitting an EMA</a></td>
 <td>7% </td>
 <td><span class="down"><img src="img/icon-down.png" alt=""> 3%</span></td>
-<td><a href="#"><!--<i class="fa fa-comment-o"></i> -->13</a></td>
+<td><a href="reports-article-info.php"><!--<i class="fa fa-comment-o"></i> -->13</a></td>
 </tr>
 <tr>
 <td>2</td>
@@ -222,9 +221,9 @@
   <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title"><a href="#">Choosing your modules</a></h2>
+<h2 class="feedback-list-title"><a href="reports-article-info.php">Submitting an EMA</a></h2>
 
-<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
+<p class="feedback-list-desc">Hi there I am having constant erros when I try to upload a file for my EMA. The first time I upload it come back with the following error: "An error was encountered while processing your submission...</p>
 
 <!--<p class="feedback-list-more"><a href="#">Read more</a></p>-->
 
@@ -237,9 +236,9 @@
   <i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title"><a href="#">Enrolment help</a></h2>
+<h2 class="feedback-list-title"><a href="reports-article-info.php">Submitting an EMA</a></h2>
 
-<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
+<p class="feedback-list-desc">HTTP/server 1.1 too busy I am unable to submit my final EMA paper due to this and have missed the 2pm deadline. please help...</p>
 
 <!--<p class="feedback-list-more"><a href="#">Read more</a></p>-->
 
@@ -252,9 +251,9 @@
   <i class="fa fa-bug fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title"><a href="#">DSA eligibility</a></h2>
+<h2 class="feedback-list-title"><a href="reports-article-info.php">Submitting an EMA</a></h2>
 
-<p class="feedback-list-desc">It took me forever to find this page. Then when I finally found it I can't do anything because there's an error...</p>
+<p class="feedback-list-desc">the etma system is not working - I get an error message when trying to access it...</p>
 
 <!--<p class="feedback-list-more"><a href="#">Read more</a></p>-->
 
@@ -269,7 +268,7 @@
 <h2>Popular searches</h2>
 
 <ul class="ou-standard-list">
-<li>referencing</li>
+<li>EMA</li>
 <li>defer</li>
 <li>special circumstances</li>
 <li>credit transfer</li>

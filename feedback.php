@@ -132,7 +132,7 @@
   <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title">Choosing your modules <a href="#"><i class="fa fa-external-link"></i></a></h2>
+<h2 class="feedback-list-title">Submitting an EMA <a href="#"><i class="fa fa-external-link"></i></a></h2>
 
 <ul class="feedback-list-details">
 <li><i class="fa fa-user colour0"></i> Matthew Thompson (PX1298327)</li>
@@ -144,7 +144,7 @@
 
 <div class="feedback-list-wrap">
 <p class="feedback-list-question">Please tell us what you did and didn't like about the site, including any features you used</p>
-<p class="feedback-list-desc">Badgers are short-legged omnivores in the family Mustelidae which also includes the otters, polecats, weasels and wolverines. The 11 species of badger are grouped in three subfamilies: Melinae (9 Eurasian badgers), Mellivorinae (the honey badger or ratel) and Taxideinae (the American badger). The Asiatic stink badgers of the genus Mydaus were formerly included within Melinae (and thus Mustelidae), but recent genetic evidence indicates these are actually members of the skunk family, placing them in the taxonomic family Mephitidae.</p>
+<p class="feedback-list-desc">Cant submit EMA system error.</p>
 </div>
 
 <div class="feedback-list-toggle" id="info">
@@ -175,7 +175,7 @@
 
 </div>
 <div class="feedback-list-item"> <span class="negative fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i> </span>
-  <h2 class="feedback-list-title">Help Centre home <a href="#"><i class="fa fa-external-link"></i></a></h2>
+  <h2 class="feedback-list-title">Submitting an EMA <a href="#"><i class="fa fa-external-link"></i></a></h2>
   <ul class="feedback-list-details">
     <li><i class="fa fa-user colour0"></i> Kapil Dev (KD729102)</li>
     <li><i class="fa fa-graduation-cap colour0"></i> Student</li>
@@ -184,7 +184,7 @@
     <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Unassigned</a></li>
   </ul>
   <div class="feedback-list-wrap">
-    <p class="feedback-list-desc">I have this message on my StudentHome page: "The University has agreed that this qualification is to be withdrawn and the final date that any student can qualify for it is 31 December 2017. You will need to ensure that you satisfy all the academic requirements for it by that date. If you do not think you will be able to complete your qualification by this date, see our advice and information." and yet your advice and information does not help with this issue. It doesnt inform me how/who to contact to see what can ne done about not being able to meet the deadline.</p>
+    <p class="feedback-list-desc">Hi there I am having constant erros when I try to upload a file for my EMA. The first time I upload it come back with the following error: "An error was encountered while processing your submission. Your submission has failed and you should correct any errors shown and resubmit your assessment. Error Details: At least one of your file or directory names is longer than 50 characters (.~lock.TMA-(EMA)-TU100-juliano-vargas-D1397240.doc...). You should re-name all files/directories so that they are not longer than 50 characters." My first question is why there is a .~lock. in fron of my file name and ... at the end? when my file file name I named as ( TMA-(EMA)-TU100-juliano-vargas-D1397240.doc ) after this error and and taking into account the name (.~lock.TMA-(EMA)-TU100-juliano-vargas-D1397240.doc) I rename this file to ( TMA-(EMA)-TU100-j-v-D1397240.doc ) and yet I still get the same error as above with old file. just for a test and my sanity I just create a EMA.test.zip file with only one image in it and yet the same error occur yet again. Could you please help me with this issue. Best Regards. Juliano Vargas.</p>
   </div>
 </div>
 
@@ -197,7 +197,7 @@
   <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title">Paying for your studies (England) <a href="#"><i class="fa fa-external-link"></i></a></h2>
+<h2 class="feedback-list-title">Submitting an EMA <a href="#"><i class="fa fa-external-link"></i></a></h2>
 
 <ul class="feedback-list-details">
 <li><i class="fa fa-user colour0"></i> Jennifer Jones (JJ862304)</li>
@@ -209,7 +209,7 @@
 
 <div class="feedback-list-wrap">
 <p class="feedback-list-question">Please tell us what you did and didn't like about the site, including any features you used</p>
-<p class="feedback-list-desc">Moles are small mammals adapted to a subterranean lifestyle. They have cylindrical bodies, velvety fur, very small, inconspicuous ears and eyes, reduced hindlimbs and short, powerful forelimbs with large paws adapted for digging. The term &quot;mole&quot; is especially and most properly used for &quot;true moles&quot; of the Talpidae family in the order Soricomorpha found in most parts of North America, Asia, and Europe.</p>
+<p class="feedback-list-desc">HTTP/server 1.1 too busy I am unable to submit my final EMA paper due to this and have missed the 2pm deadline. please help.</p>
 </div>
 
 <div class="feedback-list-toggle" id="info">
