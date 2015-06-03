@@ -89,6 +89,60 @@ ul, ul li {
 =========================
 */
 
+/*
+-------------------------------------------
+	12 Column Grid
+-------------------------------------------
+*/
+
+.ou-row {
+	zoom:1;
+	margin-bottom:20px;
+}
+
+.ou-row:before, 
+.ou-row:after {
+	content: "";
+	display: table;
+}
+
+.ou-row:after {clear:both;}
+
+.no-space {margin-bottom:0;}
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.grid12 {
+	float:left;
+	display:block;
+	margin-left:2%;
+}
+
+.grid1 {width:6.5%;}
+.grid2 {width:15%;}
+.grid3 {width:23.5%;}
+.grid4 {width:32%;}
+.grid5 {width:40.5%;}
+.grid6 {width:49%;}
+.grid7 {width:57.5%;}
+.grid8 {width:66%;}
+.grid9 {width:74.5%;}
+.grid10 {width:83%;}
+.grid11 {width:91.5%;}
+.grid12 {width:100%; margin-right:0;}
+
+.ou-row div:first-child {margin-left:0;}
+
+
 /* clear */
 
 .ou-grid:before, .ou-grid:after {
@@ -869,7 +923,7 @@ a.tooltip {outline:none;}
 a.tooltip:hover {text-decoration:none;} 
 
 a.tooltip span {
-    z-index:10;
+    z-index:150;
 	display:none; 
 	padding:15px 20px;
     margin-top:20px; 
@@ -900,7 +954,7 @@ a.tooltip:hover span {
 body.feedback #ou-region1 {width:100%;}
 
 body.feedback .ou-paged,
-.feedback-list {width:70%;}
+body.feedback-old .feedback-list {width:70%;}
 
 body.home .feedback-list {width:100%;}
 
@@ -942,8 +996,24 @@ body.home .feedback-list .feedback-list-item {border-bottom:none;}
 
 .feedback-list ul.feedback-list-details li {
 	display:inline;
-	margin-right:10px;
+	margin-right:3px;
+	position: relative;
+	z-index:100; /* so items can float alongside happily */
+	padding-right: 12px;
 }
+
+.feedback-list ul.feedback-list-details li:after {
+	content: "\2022";
+	color: #999;
+	font-size: 1.3em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 90%;
+}
+
+body.feedback-old .feedback-list ul.feedback-list-details li:after,
+.feedback-list ul.feedback-list-details li:last-child:after {content:"";}
 
 .feedback-list ul.feedback-list-details li a,
 .feedback-list .feedback-list-title a {text-decoration:none;}
@@ -991,6 +1061,48 @@ a.arrow-up:after {
 	border-top: none;
 	border-bottom: 5px solid #039;
 }
+
+
+/*
+=========================
+	Forms
+=========================
+*/
+
+
+form fieldset {
+	margin:0 0 20px 0;
+	padding:0 0 0 0;
+	width:100%;	
+}
+
+form select {
+	font-size:1.2em;
+	width:80%;
+}
+
+form legend {
+	margin:0 0 12px 0;
+	padding:0 0 0 0;
+	font-weight:bold;
+	display:block;
+}
+
+form ul li {
+	margin:0 0 6px 0;
+	color:#555;
+}
+
+form ul li:last-child {
+	margin:0 0 0 0;	
+}
+
+
+
+
+
+
+
 
 
 

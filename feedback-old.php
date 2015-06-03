@@ -9,7 +9,7 @@
 
 </head>
 
-<body class="feedback">
+<body class="feedback feedback-old">
 
 <div id="ou-org">
 
@@ -67,107 +67,69 @@
 
 <div id="ou-region1">
 
-<div class="ou-row">
-
-<div class="grid3 filters">
-
-<form>
-
-<fieldset>
-<select name="articles" id="articles">
-  <option selected="selected">All articles</option>
-  <option>Changing your name, address and other personal information (1)</option>
-  <option>Disabled students (2)</option>
-  <option>Enrolment help (1)</option>
-  <option>Estimating your module results (5)</option>
-  <option>Funding your studies (7)</option>
-  <option>Submitting an EMA (4)</option>
-</select>
-</fieldset>
-
-<fieldset>
-<select name="date">
-  <option selected="selected">Last 30 days</option>
-  <option>Last 60 days</option>
-  <option>All time</option>
-  <option>Specify dates</option>
-</select>
-</fieldset>
-
-<!--
-<fieldset>
-<select name="feedback">
-  <option selected="selected">All feedback</option>
-  <option>Widget</option>
-  <option>Survey</option>
-  <option>Bug reports</option>
-</select>
-</fieldset>
--->
-
-<fieldset>
-<legend>Feedback</legend>
-<ul>
-<li>
-  <label for="check00"><input type="checkbox" id="check00" checked="checked"> All</label></li>
-<li><label for="check01"><input type="checkbox" id="check01"> Widget</label></li>
-<li><label for="check02"><input type="checkbox" id="check02"> Survey</label></li>
-<li><label for="check03"><input type="checkbox" id="check03"> Bug reports</label></li>
-</ul>
-</fieldset>
-
-<fieldset>
-<legend>Sentiments</legend>
-<ul>
-<li><label for="check0"><input type="checkbox" id="check0" checked="checked"> All</label></li>
-<li><label for="check1"><input type="checkbox" id="check1"> Positive</label></li>
-<li><label for="check2"><input type="checkbox" id="check2"> Negative</label></li>
-</ul>
-</fieldset>
-
-<fieldset>
-<legend>Urgency</legend>
-<ul>
-<li><label for="check33"><input type="checkbox" id="check33" checked="checked"> All</label></li>
-<li><label for="check3"><input type="checkbox" id="check3"> ASAP</label></li>
-<li><label for="check4"><input type="checkbox" id="check4"> High</label></li>
-<li><label for="check5"><input type="checkbox" id="check5"> Medium</label></li>
-<li><label for="check6"><input type="checkbox" id="check6"> Low</label></li>
-<li><label for="check7"><input type="checkbox" id="check7"> Unknown</label></li>
-</ul>
-</fieldset>
-
-<fieldset>
-<legend>Status</legend>
-<ul>
-<li><label for="check88"><input type="checkbox" id="check88" checked="checked"> All</label></li>
-<li><label for="check8"><input type="checkbox" id="check8"> Not started</label></li>
-<li><label for="check9"><input type="checkbox" id="check9"> In progress</label></li>
-<li><label for="check10"><input type="checkbox" id="check10"> Complete</label></li>
-</ul>
-</fieldset>
-
-<fieldset>
-<legend>Assigned to</legend>
-<ul>
-<li><label for="check111"><input type="checkbox" id="check111" checked="checked"> All</label></li>
-<li><label for="check11"><input type="checkbox" id="check11"> Anyone</label></li>
-<li><label for="check12"><input type="checkbox" id="check12"> Guy Carberry</label></li>
-<li><label for="check13"><input type="checkbox" id="check13"> Steven Price</label></li>
-<li><label for="check14"><input type="checkbox" id="check14"> Nick Golding</label></li>
-<li><label for="check15"><input type="checkbox" id="check15"> James Nutt</label></li>
-</ul>
-</fieldset>
-
-</form>
-
-
-</div> <!-- end grid4 -->
-
-<div class="grid9 feedback">
-
-
 <div id="ou-content" class="ou-content">
+
+<ul class="ou-tabs">
+<li><a href="feedback.php" class="ou-selected">All feedback</a></li>
+<li><a href="#">Widget</a></li>
+<li><a href="#">Survey</a></li>
+<li><a href="#">Bug reports</a></li>
+</ul>
+
+<div class="filters">
+<ul class="tabs">
+
+<li>
+<a href="#" class="selected">All sentiments</a>
+<ul class="sub">
+<li><a href="#">Positive</a></li>
+<li><a href="#">Negative</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#" class="selected">All urgencies</a>
+<ul class="sub">
+<li><a href="#">ASAP</a></li>
+<li><a href="#">High</a></li>
+<li><a href="#">Medium</a></li>
+<li><a href="#">Low</a></li>
+<li><a href="#">Unknown</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#" class="selected">All statuses</a>
+<ul class="sub">
+<li><a href="#">Not started</a></li>
+<li><a href="#">In progress</a></li>
+<li><a href="#">Complete</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#" class="selected">Assigned to anyone</a>
+<ul class="sub">
+<li><a href="#">Guy Carberry</a></li>
+<li><a href="#">Steven Price</a></li>
+<li><a href="#">James Nutt</a></li>
+<li><a href="#">Nick Golding</a></li>
+<li><a href="#">Kaldora Peillis</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#" class="selected">Last 30 days</a>
+<ul class="sub">
+<li><a href="#">Last 60 days</a></li>
+<li><a href="#">All time</a></li>
+<li><a href="#">Specify dates</a></li>
+</ul>
+</li>
+
+</ul>
+</div>
+
 
 <div class="feedback-list">
 
@@ -178,16 +140,14 @@
   <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> (<a href="#" class="tooltip"> <i class="fa fa-external-link"></i> <span>Visit this page on the Help Centre</span> </a>)</h2>
+<h2 class="feedback-list-title">Submitting an EMA <a href="#"><i class="fa fa-external-link"></i></a></h2>
 
 <ul class="feedback-list-details">
-<li><a href="#" class="tooltip">23m<span>Permalink</span></a></li>
-<li>Matthew Thompson</li>
-<li>PX1298327</li>
-<li>Student</li>
-<li><a href="#" class="tooltip">Urgency unknown</a></li>
-<li><a href="#" class="tooltip">Not started</a></li>
-<li><a href="#" class="tooltip">Unassigned</a></li>
+<li><i class="fa fa-user colour0"></i> Matthew Thompson (PX1298327)</li>
+<li><i class="fa fa-graduation-cap colour0"></i> Student</li>
+<li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 23 minutes ago <span>Permalink</span></a></li>
+<li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> Not started</a></li>
+<li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Unassigned</a></li>
 </ul>
 
 <div class="feedback-list-wrap">
@@ -223,23 +183,17 @@
 
 </div>
 <div class="feedback-list-item"> <span class="negative fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i> </span>
-
-<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> (<a href="#" class="tooltip"> <i class="fa fa-external-link"></i> <span>Visit this page on the Help Centre</span> </a>)</h2>
-
-<ul class="feedback-list-details">
-<li><a href="#" class="tooltip">2hr<span>Permalink</span></a></li>
-<li>Kapil Dev</li>
-<li>KD729102</li>
-<li>Staff</li>
-<li><a href="#" class="tooltip"><i class="fa fa-exclamation-triangle colour2"></i> Urgency: High</a></li>
-<li><a href="#" class="tooltip">In progress</a></li>
-<li><a href="#" class="tooltip">Assigned to Guy Carberry</a></li>
-</ul>
-  
-  
-<div class="feedback-list-wrap">
-<p class="feedback-list-desc">Hi there I am having constant erros when I try to upload a file for my EMA. The first time I upload it come back with the following error: "An error was encountered while processing your submission. Your submission has failed and you should correct any errors shown and resubmit your assessment. Error Details: At least one of your file or directory names is longer than 50 characters (.~lock.TMA-(EMA)-TU100-juliano-vargas-D1397240.doc...). You should re-name all files/directories so that they are not longer than 50 characters." My first question is why there is a .~lock. in fron of my file name and ... at the end? when my file file name I named as ( TMA-(EMA)-TU100-juliano-vargas-D1397240.doc ) after this error and and taking into account the name (.~lock.TMA-(EMA)-TU100-juliano-vargas-D1397240.doc) I rename this file to ( TMA-(EMA)-TU100-j-v-D1397240.doc ) and yet I still get the same error as above with old file. just for a test and my sanity I just create a EMA.test.zip file with only one image in it and yet the same error occur yet again. Could you please help me with this issue. Best Regards. Juliano Vargas.</p>
-</div>
+  <h2 class="feedback-list-title">Submitting an EMA <a href="#"><i class="fa fa-external-link"></i></a></h2>
+  <ul class="feedback-list-details">
+    <li><i class="fa fa-user colour0"></i> Kapil Dev (KD729102)</li>
+    <li><i class="fa fa-graduation-cap colour0"></i> Student</li>
+    <li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 39 minutes ago <span>Permalink</span></a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> Not started</a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Unassigned</a></li>
+  </ul>
+  <div class="feedback-list-wrap">
+    <p class="feedback-list-desc">Hi there I am having constant erros when I try to upload a file for my EMA. The first time I upload it come back with the following error: "An error was encountered while processing your submission. Your submission has failed and you should correct any errors shown and resubmit your assessment. Error Details: At least one of your file or directory names is longer than 50 characters (.~lock.TMA-(EMA)-TU100-juliano-vargas-D1397240.doc...). You should re-name all files/directories so that they are not longer than 50 characters." My first question is why there is a .~lock. in fron of my file name and ... at the end? when my file file name I named as ( TMA-(EMA)-TU100-juliano-vargas-D1397240.doc ) after this error and and taking into account the name (.~lock.TMA-(EMA)-TU100-juliano-vargas-D1397240.doc) I rename this file to ( TMA-(EMA)-TU100-j-v-D1397240.doc ) and yet I still get the same error as above with old file. just for a test and my sanity I just create a EMA.test.zip file with only one image in it and yet the same error occur yet again. Could you please help me with this issue. Best Regards. Juliano Vargas.</p>
+  </div>
 </div>
 
 
@@ -251,16 +205,14 @@
   <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> (<a href="#" class="tooltip"> <i class="fa fa-external-link"></i> <span>Visit this page on the Help Centre</span> </a>)</h2>
+<h2 class="feedback-list-title">Submitting an EMA <a href="#"><i class="fa fa-external-link"></i></a></h2>
 
 <ul class="feedback-list-details">
-<li><a href="#" class="tooltip">2hr<span>Permalink</span></a></li>
-<li>Ravi Bopara</li>
-<li>RB7623390</li>
-<li>Student</li>
-<li><a href="#" class="tooltip"><i class="fa fa-exclamation-triangle colour3"></i> Urgency: Low</a></li>
-<li><a href="#" class="tooltip"><i class="fa fa-check-circle colour1"></i> Complete</a></li>
-<li><a href="#" class="tooltip">Assigned to James Nutt</a></li>
+<li><i class="fa fa-user colour0"></i> Jennifer Jones (JJ862304)</li>
+<li><i class="fa fa-shield colour0"></i> Staff</li>
+<li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 1 hour ago <span>Permalink</span></a></li>
+<li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> Urgent <span>Tagged by Stephen Turvey</span></a></li>
+<li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Assigned to Nick Golding <span>Assigned to Nick by Guy Carberry</span></a></li>
 </ul>
 
 <div class="feedback-list-wrap">
@@ -303,16 +255,14 @@
   <i class="fa fa-bug fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title"><a href="#">Bug report</a></h2>
+<h2 class="feedback-list-title">Bug report</h2>
 
 <ul class="feedback-list-details">
-<li><a href="#" class="tooltip">1d<span>Permalink</span></a></li>
-<li>Sarah McDonald</li>
-<li>SM2310938</li>
-<li>Student</li>
-<li><a href="#" class="tooltip"><i class="fa fa-exclamation-triangle colour12"></i> Urgency: Medium</a></li>
-<li><a href="#" class="tooltip">In progress</a></li>
-<li><a href="#" class="tooltip">Unassigned</a></li>
+<li><i class="fa fa-user colour0"></i> John Obinwake (JO317300)</li>
+<li><i class="fa fa-graduation-cap colour0"></i> Student</li>
+<li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 2 days ago <span>Permalink</span></a></li>
+<li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> In progress <span>Tagged by Steven Price</span></a></li>
+<li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Assigned to Steven Price <span>Assigned to Steven by James Nutt</span></a></li>
 </ul>
 
 <div class="feedback-list-wrap">
@@ -347,25 +297,18 @@
 <p class="feedback-list-more"><a href="#" class="feedback-list-trigger arrow-down">Full details</a></p>
 
 </div>
-
 <div class="feedback-list-item"> <span class="positive fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i></span>
-
-<h2 class="feedback-list-title"><a href="#">Sitemap</a> (<a href="#" class="tooltip"> <i class="fa fa-external-link"></i> <span>Visit this page on the Help Centre</span> </a>)</h2>
-
-<ul class="feedback-list-details">
-<li><a href="#" class="tooltip">3d<span>Permalink</span></a></li>
-<li>David Gower</li>
-<li>DG5355891</li>
-<li>Student</li>
-<li><a href="#" class="tooltip">Urgency unknown</a></li>
-<li><a href="#" class="tooltip">In progress</a></li>
-<li><a href="#" class="tooltip">Unassigned</a></li>
-</ul>
-
-<div class="feedback-list-wrap">
+  <h2 class="feedback-list-title">Sitemap <a href="#"><i class="fa fa-external-link"></i></a></h2>
+  <ul class="feedback-list-details">
+    <li><i class="fa fa-user colour0"></i> Alison Davis (AD3917305)</li>
+    <li><i class="fa fa-graduation-cap colour0"></i> Student</li>
+    <li><a href="#" class="tooltip"><i class="fa fa-clock-o" style="color:#777;"></i> 2 days ago <span>Permalink</span></a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-flag colour2"></i> No action required <span>Tagged by Dawn Allwood</span></a></li>
+    <li><a href="#" class="tooltip"><i class="fa fa-crosshairs colour5"></i> Unassigned</a></li>
+  </ul>
+  <div class="feedback-list-wrap">
     <p class="feedback-list-desc">What a wonderful website. I have thoroughly enjoyed reading every page. Bravo!</p>
-</div>
-
+  </div>
 </div>
 
 </div>
@@ -386,15 +329,6 @@
 
 
 </div> <!-- end ou-content -->
-
-
-
-</div> <!-- end grid8 -->
-
-</div> <!-- end ou-row -->
-
-
-
 
 </div> <!-- end ou-region1 -->
 
