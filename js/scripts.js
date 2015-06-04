@@ -31,6 +31,24 @@ $(this).parent().prev(".feedback-list-toggle").slideToggle();
 	return false;
 })
 
+// SHOW/HIDE MOBILE FILTERS
+
+$("a.mobile-filters").click(function(){
+
+var $self = $(this);
+
+$("#filters").toggleClass("visible");
+
+$(this).toggleClass("arrow-down arrow-up");
+
+if ($self.text() == "Show filters")
+	   $self.text("Hide filters");
+else
+        $self.text("Show filters");
+
+	return false;
+})
+
 
 
 // FILTER NAV OLD VERSION

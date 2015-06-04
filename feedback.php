@@ -71,7 +71,9 @@
 
 <div class="grid3 filters">
 
-<form>
+<a href="#" class="mobile-filters arrow-down">Show filters</a>
+
+<form id="filters">
 
 <fieldset>
 <select name="articles" id="articles">
@@ -162,7 +164,7 @@ Nobody</label></li>
 </form>
 
 
-</div> <!-- end grid4 -->
+</div> <!-- end grid3 filters -->
 
 <div class="grid9 feedback">
 
@@ -389,7 +391,7 @@ Nobody</label></li>
 
 
 
-</div> <!-- end grid8 -->
+</div> <!-- end grid9 feedback -->
 
 </div> <!-- end ou-row -->
 
