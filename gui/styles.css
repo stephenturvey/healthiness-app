@@ -1127,7 +1127,6 @@ form ul li:last-child {
 	margin:0 0 0 0;	
 }
 
-form button, 
 form input[type=button], 
 form input[type=submit] {
 	-webkit-border-radius: 4px;
@@ -1153,10 +1152,8 @@ form input[type=submit] {
 	line-height:normal;
 }
 
-form button:hover, 
 form input[type=button]:hover, 
 form input[type=submit]:hover,
-form button:focus, 
 form input[type=button]:focus, 
 form input[type=submit]:focus {
 	background: #000;
