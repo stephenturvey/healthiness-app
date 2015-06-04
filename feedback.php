@@ -75,7 +75,7 @@
 
 <fieldset>
 <select name="articles" id="articles">
-  <option selected="selected">All articles</option>
+  <option selected="selected">All pages</option>
   <option>Changing your name, address and other personal information (1)</option>
   <option>Disabled students (2)</option>
   <option>Enrolment help (1)</option>
@@ -108,8 +108,7 @@
 <fieldset>
 <legend>Feedback</legend>
 <ul>
-<li>
-  <label for="check00"><input type="checkbox" id="check00" checked="checked"> All</label></li>
+<li><label for="check00"><input type="checkbox" id="check00" checked="checked"> All</label></li>
 <li><label for="check01"><input type="checkbox" id="check01"> Widget</label></li>
 <li><label for="check02"><input type="checkbox" id="check02"> Survey</label></li>
 <li><label for="check03"><input type="checkbox" id="check03"> Bug reports</label></li>
@@ -151,7 +150,8 @@
 <legend>Assigned to</legend>
 <ul>
 <li><label for="check111"><input type="checkbox" id="check111" checked="checked"> All</label></li>
-<li><label for="check11"><input type="checkbox" id="check11"> Anyone</label></li>
+<li><label for="check11"><input type="checkbox" id="check11"> 
+Nobody</label></li>
 <li><label for="check12"><input type="checkbox" id="check12"> Guy Carberry</label></li>
 <li><label for="check13"><input type="checkbox" id="check13"> Steven Price</label></li>
 <li><label for="check14"><input type="checkbox" id="check14"> Nick Golding</label></li>
@@ -178,7 +178,7 @@
   <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> (<a href="#" class="tooltip"> <i class="fa fa-external-link"></i> <span>Visit this page on the Help Centre</span> </a>)</h2>
+<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> <a href="#" class="external-link tooltip"><i class="fa fa-external-link"></i> <span>Visit page on Help Centre</span></a></h2>
 
 <ul class="feedback-list-details">
 <li><a href="#" class="tooltip">23m<span>Permalink</span></a></li>
@@ -224,7 +224,7 @@
 </div>
 <div class="feedback-list-item"> <span class="negative fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-thumbs-o-down fa-stack-1x fa-inverse"></i> </span>
 
-<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> (<a href="#" class="tooltip"> <i class="fa fa-external-link"></i> <span>Visit this page on the Help Centre</span> </a>)</h2>
+<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> <a href="#" class="external-link tooltip"><i class="fa fa-external-link"></i> <span>Visit page on Help Centre</span></a></h2>
 
 <ul class="feedback-list-details">
 <li><a href="#" class="tooltip">2hr<span>Permalink</span></a></li>
@@ -251,7 +251,7 @@
   <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
 </span>
 
-<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> (<a href="#" class="tooltip"> <i class="fa fa-external-link"></i> <span>Visit this page on the Help Centre</span> </a>)</h2>
+<h2 class="feedback-list-title"><a href="#">Submitting an EMA</a> <a href="#" class="external-link tooltip"><i class="fa fa-external-link"></i> <span>Visit page on Help Centre</span></a></h2>
 
 <ul class="feedback-list-details">
 <li><a href="#" class="tooltip">2hr<span>Permalink</span></a></li>
@@ -350,7 +350,7 @@
 
 <div class="feedback-list-item"> <span class="positive fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i></span>
 
-<h2 class="feedback-list-title"><a href="#">Sitemap</a> (<a href="#" class="tooltip"> <i class="fa fa-external-link"></i> <span>Visit this page on the Help Centre</span> </a>)</h2>
+<h2 class="feedback-list-title"><a href="#">Sitemap</a> <a href="#" class="external-link tooltip"><i class="fa fa-external-link"></i> <span>Visit page on Help Centre</span></a></h2>
 
 <ul class="feedback-list-details">
 <li><a href="#" class="tooltip">3d<span>Permalink</span></a></li>

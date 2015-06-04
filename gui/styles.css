@@ -1062,6 +1062,21 @@ a.arrow-up:after {
 	border-bottom: 5px solid #039;
 }
 
+a.external-link {
+	position:relative;
+	padding-left:15px;
+}
+
+a.external-link:before {
+	content: "\2022";
+	color: #999;
+	font-size: 1.3em;
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 90%;
+}
+
 
 /*
 =========================
