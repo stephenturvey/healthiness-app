@@ -187,9 +187,9 @@ Nobody</label></li>
 <li>Matthew Thompson</li>
 <li>PX1298327</li>
 <li>Student</li>
-<li><a href="#" class="tooltip">Urgency unknown</a></li>
-<li><a href="#" class="tooltip">Not started</a></li>
-<li><a href="#" class="tooltip">Unassigned</a></li>
+<li><a href="feedback-popup.php" class="tooltip">Urgency unknown</a></li>
+<li><a href="feedback-popup.php" class="tooltip">Not started</a></li>
+<li><a href="feedback-popup.php" class="tooltip">Unassigned</a></li>
 </ul>
 
 <div class="feedback-list-wrap">
@@ -233,9 +233,9 @@ Nobody</label></li>
 <li>Kapil Dev</li>
 <li>KD729102</li>
 <li>Staff</li>
-<li><a href="#" class="tooltip"><i class="fa fa-exclamation-triangle colour2"></i> Urgency: High</a></li>
-<li><a href="#" class="tooltip">In progress</a></li>
-<li><a href="#" class="tooltip">Assigned to Guy Carberry</a></li>
+<li><a href="feedback-popup.php" class="tooltip"><i class="fa fa-exclamation-triangle colour2"></i> Urgency: High</a></li>
+<li><a href="feedback-popup.php" class="tooltip">In progress</a></li>
+<li><a href="feedback-popup.php" class="tooltip">Assigned to Guy Carberry</a></li>
 </ul>
   
   
@@ -260,9 +260,9 @@ Nobody</label></li>
 <li>Ravi Bopara</li>
 <li>RB7623390</li>
 <li>Student</li>
-<li><a href="#" class="tooltip"><i class="fa fa-exclamation-triangle colour3"></i> Urgency: Low</a></li>
-<li><a href="#" class="tooltip"><i class="fa fa-check-circle colour1"></i> Complete</a></li>
-<li><a href="#" class="tooltip">Assigned to James Nutt</a></li>
+<li><a href="feedback-popup.php" class="tooltip"><i class="fa fa-exclamation-triangle colour3"></i> Urgency: Low</a></li>
+<li><a href="feedback-popup.php" class="tooltip"><i class="fa fa-check-circle colour1"></i> Complete</a></li>
+<li><a href="feedback-popup.php" class="tooltip">Assigned to James Nutt</a></li>
 </ul>
 
 <div class="feedback-list-wrap">
@@ -312,9 +312,9 @@ Nobody</label></li>
 <li>Sarah McDonald</li>
 <li>SM2310938</li>
 <li>Student</li>
-<li><a href="#" class="tooltip"><i class="fa fa-exclamation-triangle colour12"></i> Urgency: Medium</a></li>
-<li><a href="#" class="tooltip">In progress</a></li>
-<li><a href="#" class="tooltip">Unassigned</a></li>
+<li><a href="feedback-popup.php" class="tooltip"><i class="fa fa-exclamation-triangle colour12"></i> Urgency: Medium</a></li>
+<li><a href="feedback-popup.php" class="tooltip">In progress</a></li>
+<li><a href="feedback-popup.php" class="tooltip">Unassigned</a></li>
 </ul>
 
 <div class="feedback-list-wrap">
@@ -359,9 +359,9 @@ Nobody</label></li>
 <li>David Gower</li>
 <li>DG5355891</li>
 <li>Student</li>
-<li><a href="#" class="tooltip">Urgency unknown</a></li>
-<li><a href="#" class="tooltip">In progress</a></li>
-<li><a href="#" class="tooltip">Unassigned</a></li>
+<li><a href="feedback-popup.php" class="tooltip">Urgency unknown</a></li>
+<li><a href="feedback-popup.php" class="tooltip">In progress</a></li>
+<li><a href="feedback-popup.php" class="tooltip">Unassigned</a></li>
 </ul>
 
 <div class="feedback-list-wrap">
