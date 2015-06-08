@@ -8,7 +8,7 @@
 <?php include('inc/head.php'); ?>
 
 <style>
-body.popup {margin-top: 150px;}
+body.popup {margin-top: 120px;}
 </style>
 
 </head>
